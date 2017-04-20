@@ -1,0 +1,6 @@
+*.DS_Store
+build*
+*kdev4
+*~
+*.txt.user
+DoxygenLayout.xml
