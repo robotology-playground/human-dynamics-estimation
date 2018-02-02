@@ -1,0 +1,6 @@
+<map id="xsens::XsensSegmentsFrame::Editor" name="xsens::XsensSegmentsFrame::Editor">
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_wire.html" title="{Wire\n||}" alt="" coords="5,317,53,395"/>
+<area shape="rect" id="node3" href="$classyarp_1_1os_1_1_port_writer.html" title="{PortWriter\n||}" alt="" coords="78,317,159,395"/>
+<area shape="rect" id="node4" href="$classxsens_1_1_xsens_segments_frame.html" title="{xsens::XsensSegmentsFrame\n||+ XsensSegmentsFrame()\l+ XsensSegmentsFrame()\l+ XsensSegmentsFrame()\l+ operator=()\l+ read()\l+ read()\l+ write()\l+ write()\l+ toString()\l+ XsensSegmentsFrame()\land 8 more...\l&#45; write_status()\l&#45; nested_write_status()\l&#45; write_segmentsData()\l&#45; nested_write_segmentsData()\l&#45; read_status()\l&#45; nested_read_status()\l&#45; read_segmentsData()\l&#45; nested_read_segmentsData()\l&#45; write_status()\l&#45; nested_write_status()\land 6 more...\l}" alt="" coords="183,163,387,549"/>
+<area shape="rect" id="node5" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="106,13,203,91"/>
+</map>

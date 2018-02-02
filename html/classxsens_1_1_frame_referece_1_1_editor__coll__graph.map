@@ -1,0 +1,6 @@
+<map id="xsens::FrameReferece::Editor" name="xsens::FrameReferece::Editor">
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_wire.html" title="{Wire\n||}" alt="" coords="5,315,53,392"/>
+<area shape="rect" id="node3" href="$classyarp_1_1os_1_1_port_writer.html" title="{PortWriter\n||}" alt="" coords="78,315,159,392"/>
+<area shape="rect" id="node4" href="$classxsens_1_1_frame_referece.html" title="{xsens::FrameReferece\n||+ FrameReferece()\l+ FrameReferece()\l+ FrameReferece()\l+ operator=()\l+ read()\l+ read()\l+ write()\l+ write()\l+ toString()\l+ FrameReferece()\land 8 more...\l&#45; write_frameReference()\l&#45; nested_write_frameReference()\l&#45; write_frameName()\l&#45; nested_write_frameName()\l&#45; read_frameReference()\l&#45; nested_read_frameReference()\l&#45; read_frameName()\l&#45; nested_read_frameName()\l&#45; write_frameReference()\l&#45; nested_write_frameReference()\land 6 more...\l}" alt="" coords="183,161,395,546"/>
+<area shape="rect" id="node5" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="241,5,337,83"/>
+</map>

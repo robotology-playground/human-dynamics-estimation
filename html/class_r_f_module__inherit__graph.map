@@ -1,0 +1,4 @@
+<map id="RFModule" name="RFModule">
+<area shape="rect" id="node2" href="$class_human_t_f_bridge.html" title="{HumanTFBridge\n|&#45; client_port\l&#45; xsensDataPort\l&#45; xsensDriver\l&#45; publisher_tf\l&#45; tf\l&#45; segments\l&#45; fakeSegments\l|+ getPeriod()\l+ updateModule()\l+ configure()\l+ close()\l+ onRead()\l}" alt="" coords="5,233,128,457"/>
+<area shape="rect" id="node3" href="$classxsens_joint_state_publisher_module.html" title="{xsensJointStatePublisher\lModule\n|&#45; humanDynamicsDataPort\l&#45; effortsList\l&#45; rpcPort\l&#45; humanStateDataPort\l&#45; publisher\l&#45; publisher_tf\l&#45; joint_state\l&#45; tf\l&#45; mutex\l&#45; hasRobotFrame\l&#45; robotBaseLinkWRTGround\l&#45; robotBaseLinkWRTPelvis\l&#45; humanPelvisWRTGround\l|+ getPeriod()\l+ updateModule()\l+ configure()\l+ close()\l+ onRead()\l+ getPeriod()\l+ updateModule()\l+ configure()\l+ close()\l+ onRead()\l+ setRobotPose()\l+ respond()\l}" alt="" coords="152,131,339,560"/>
+</map>

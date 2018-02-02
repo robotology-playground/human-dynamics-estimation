@@ -1,0 +1,5 @@
+<map id="StateExtendedInputPort" name="StateExtendedInputPort">
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_buffered_port.html" title="{yarp::os::BufferedPort\l\&lt; jointData \&gt;\n||}" alt="" coords="5,498,155,590"/>
+<area shape="rect" id="node5" href="$classjoint_data.html" title="{jointData\n||+ jointData()\l+ jointData()\l+ jointData()\l+ operator=()\l+ read()\l+ read()\l+ write()\l+ write()\l+ toString()\l&#45; write_jointPosition()\l&#45; nested_write_jointPosition()\l&#45; write_jointPosition\l_isValid()\l&#45; nested_write_jointPosition\l_isValid()\l&#45; write_jointVelocity()\l&#45; nested_write_jointVelocity()\l&#45; write_jointVelocity\l_isValid()\l&#45; nested_write_jointVelocity\l_isValid()\l&#45; write_jointAcceleration()\l&#45; nested_write_jointAcceleration()\land 70 more...\l}" alt="" coords="461,337,675,751"/>
+<area shape="rect" id="node6" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="843,5,940,83"/>
+</map>

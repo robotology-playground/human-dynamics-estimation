@@ -1,0 +1,7 @@
+<map id="EffortPublisher" name="EffortPublisher">
+<area shape="rect" id="node6" href="$classstd__msgs___header.html" title="{std_msgs_Header\n||+ std_msgs_Header()\l+ clear()\l+ readBare()\l+ readBottle()\l+ read()\l+ writeBare()\l+ writeBottle()\l+ write()\l+ getTypeText()\l+ getType()\land 10 more...\l}" alt="" coords="115,448,263,672"/>
+<area shape="rect" id="node3" href="$classsensor__msgs___temperature.html" title="{sensor_msgs_Temperature\n||+ sensor_msgs_Temperature()\l+ clear()\l+ readBare()\l+ readBottle()\l+ read()\l+ writeBare()\l+ writeBottle()\l+ write()\l+ getTypeText()\l+ getType()\land 10 more...\l}" alt="" coords="223,749,421,973"/>
+<area shape="rect" id="node4" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="309,5,405,83"/>
+<area shape="rect" id="node7" href="$class_tick_time.html" title="{TickTime\n||+ TickTime()\l+ clear()\l+ readBare()\l+ readBottle()\l+ read()\l+ writeBare()\l+ writeBottle()\l+ write()\l+ getTypeText()\l+ getType()\land 10 more...\l}" alt="" coords="193,160,308,384"/>
+<area shape="rect" id="node9" href="$classyarp_1_1os_1_1_publisher.html" title="{yarp::os::Publisher\l\&lt; sensor_msgs_Temperature \&gt;\n||}" alt="" coords="447,815,651,907"/>
+</map>

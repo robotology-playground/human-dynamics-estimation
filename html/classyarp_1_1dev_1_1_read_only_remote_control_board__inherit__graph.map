@@ -1,0 +1,5 @@
+<map id="yarp::dev::ReadOnlyRemoteControlBoard" name="yarp::dev::ReadOnlyRemoteControlBoard">
+<area shape="rect" id="node2" href="$classyarp_1_1dev_1_1_i_encoders_timed.html" title="{yarp::dev::IEncodersTimed\n||}" alt="" coords="5,5,184,83"/>
+<area shape="rect" id="node3" href="$classyarp_1_1dev_1_1_device_driver.html" title="{yarp::dev::DeviceDriver\n||}" alt="" coords="208,5,367,83"/>
+<area shape="rect" id="node4" href="$classyarp_1_1dev_1_1_i_axis_info.html" title="{yarp::dev::IAxisInfo\n||}" alt="" coords="392,5,527,83"/>
+</map>

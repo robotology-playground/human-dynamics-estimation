@@ -1,0 +1,6 @@
+<map id="HumanDynamicsEstimator" name="HumanDynamicsEstimator">
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_r_f_module.html" title="{RFModule\n||}" alt="" coords="5,20,87,97"/>
+<area shape="rect" id="node8" href="$classyarp_1_1os_1_1_buffered_port.html" title="{yarp::os::BufferedPort\l\&lt; human::HumanDynamics \&gt;\n||}" alt="" coords="896,13,1091,105"/>
+<area shape="rect" id="node12" href="$classyarp_1_1os_1_1_buffered_port.html" title="{yarp::os::BufferedPort\l\&lt; human::HumanForces \&gt;\n||}" alt="" coords="1650,13,1824,105"/>
+<area shape="rect" id="node13" href="$classyarp_1_1os_1_1_buffered_port.html" title="{yarp::os::BufferedPort\l\&lt; human::HumanState \&gt;\n||}" alt="" coords="1849,13,2015,105"/>
+</map>

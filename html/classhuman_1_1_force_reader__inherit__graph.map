@@ -1,0 +1,5 @@
+<map id="human::ForceReader" name="human::ForceReader">
+<area shape="rect" id="node2" href="$classhuman_1_1_abstract_force_reader.html" title="Abstract class for implementing code required from its derived classes. " alt="" coords="82,147,275,341"/>
+<area shape="rect" id="node3" href="$classhuman_1_1_f_t_force_reader.html" title="Implementation of the ForceReader interface for handling forces coming from devices. " alt="" coords="5,397,164,489"/>
+<area shape="rect" id="node4" href="$classhuman_1_1_port_force_reader.html" title="Implementation of the ForceReader interface for handling forces coming from a YARP port..." alt="" coords="189,389,357,496"/>
+</map>
