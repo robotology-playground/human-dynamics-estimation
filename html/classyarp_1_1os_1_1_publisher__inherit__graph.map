@@ -1,0 +1,5 @@
+<map id="yarp::os::Publisher&lt; T &gt;" name="yarp::os::Publisher&lt; T &gt;">
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_publisher.html" title="yarp::os::Publisher\l\&lt; sensor_msgs_JointState \&gt;" alt="" coords="390,5,581,46"/>
+<area shape="rect" id="node3" href="$classyarp_1_1os_1_1_publisher.html" title="yarp::os::Publisher\l\&lt; yarp::rosmsg::tf2\l_msgs::TFMessage \&gt;" alt="" coords="410,69,561,125"/>
+<area shape="rect" id="node4" href="$classyarp_1_1os_1_1_publisher.html" title="yarp::os::Publisher\l\&lt; yarp::rosmsg::sensor\l_msgs::JointState \&gt;" alt="" coords="407,149,564,205"/>
+</map>

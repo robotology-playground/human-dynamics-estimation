@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: HumanDynamicsEstimator Class Reference</title>
+<title>HumanDynamicsEstimation: HumanDynamicsEstimator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,11 +69,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_human_dynamics_estimator.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,7 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
@@ -98,15 +118,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for HumanDynamicsEstimator:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_human_dynamics_estimator__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_human_dynamics_estimator__inherit__graph.svg" width="190" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-<div class="dynheader">
-Collaboration diagram for HumanDynamicsEstimator:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_human_dynamics_estimator__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -158,13 +172,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a36b115ab3e430821428802e2b28c1c14"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a36b115ab3e430821428802e2b28c1c14">m_period</a></td></tr>
 <tr class="separator:a36b115ab3e430821428802e2b28c1c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a919e5a0e6dd0f29aa76c51c2f946407b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; <a class="el" href="classhuman_1_1_human_state.html">human::HumanState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a919e5a0e6dd0f29aa76c51c2f946407b">m_humanJointConfigurationPort</a></td></tr>
+&lt; human::HumanState &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a919e5a0e6dd0f29aa76c51c2f946407b">m_humanJointConfigurationPort</a></td></tr>
 <tr class="separator:a919e5a0e6dd0f29aa76c51c2f946407b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad683f34ef026dd858be26c7dcbd998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; <a class="el" href="classhuman_1_1_human_forces.html">human::HumanForces</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a1ad683f34ef026dd858be26c7dcbd998">m_humanForcesPort</a></td></tr>
+&lt; human::HumanForces &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a1ad683f34ef026dd858be26c7dcbd998">m_humanForcesPort</a></td></tr>
 <tr class="separator:a1ad683f34ef026dd858be26c7dcbd998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac55d4bfc2b88a6a4b65b48c70e4511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; <a class="el" href="classhuman_1_1_human_dynamics.html">human::HumanDynamics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a4ac55d4bfc2b88a6a4b65b48c70e4511">m_outputPort</a></td></tr>
+&lt; human::HumanDynamics &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a4ac55d4bfc2b88a6a4b65b48c70e4511">m_outputPort</a></td></tr>
 <tr class="separator:a4ac55d4bfc2b88a6a4b65b48c70e4511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4def82bae4e4d181c106fd0aa1035f85"><td class="memItemLeft" align="right" valign="top">iDynTree::BerdyHelper&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a4def82bae4e4d181c106fd0aa1035f85">m_berdy</a></td></tr>
 <tr class="separator:a4def82bae4e4d181c106fd0aa1035f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,10 +246,7 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 <tr class="memitem:a5f94eed7724bd218874fbf240c98b05e"><td class="memItemLeft" align="right" valign="top">iDynTree::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_dynamics_estimator.html#a5f94eed7724bd218874fbf240c98b05e">m_gravity</a></td></tr>
 <tr class="separator:a5f94eed7724bd218874fbf240c98b05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00034">34</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a36f5c286d607612428c66ca2497ae404"></a>
 <div class="memitem">
 <div class="memproto">
@@ -253,8 +264,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00087">87</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -276,8 +285,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00086">86</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a19b4f648bfa2d42309e4aebc346235f1"></a>
@@ -298,8 +305,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00084">84</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -316,8 +321,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 <p>Default constructor and destructor </p>
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00029">29</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
 
 </div>
 </div>
@@ -342,8 +345,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00032">32</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -360,8 +361,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 <p>Close module and perform cleanup </p>
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00531">531</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
 
 </div>
 </div>
@@ -387,8 +386,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00540">540</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aeb0568354de7be79a2e095baaeb0c36c"></a>
@@ -406,8 +403,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </div><div class="memdoc">
 <p>Module configuration </p>
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00039">39</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5ad3c161d234d64ab5e034ff0f3e7fb5"></a>
@@ -423,8 +418,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 <p>Return the module period. </p>
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00034">34</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
 
 </div>
 </div>
@@ -442,8 +435,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </div><div class="memdoc">
 <p>Module updating: at each timestamp it returns the MAP result </p>
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8cpp_source.html#l00378">378</a> of file <a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -457,8 +448,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00131">131</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="af579a65511c4b3ae8c1b1ea675a57a88"></a>
@@ -470,8 +459,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00133">133</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -485,8 +472,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00130">130</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5ab5f871997b9c709510e7228345fa9a"></a>
@@ -498,8 +483,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00139">139</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -513,8 +496,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00136">136</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a20cb87e3c7c2b931e970629007c07d19"></a>
@@ -527,8 +508,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00138">138</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a54233766cf8e4aafe758c359d079bf4b"></a>
@@ -540,8 +519,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00090">90</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -563,8 +540,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00082">82</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aab3d51289a591ce0b8ee5af3d292d7f1"></a>
@@ -585,8 +560,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00112">112</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aedd10945aecbfc349351ae1bbfa03c0b"></a>
@@ -606,8 +579,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00122">122</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -633,8 +604,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 <img class="formulaDsp" alt="\[ \begin{bmatrix} D \\ Y \end{bmatrix} d + \begin{bmatrix} bD \\ bY \end{bmatrix} = \begin{bmatrix} 0 \\ y \end{bmatrix} \]" src="form_0.png"/>
 </p>
  
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00121">121</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a59c63f596c6e7b42a0f56d4061d6909e"></a>
@@ -654,8 +623,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00110">110</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -677,8 +644,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00144">144</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a1ad683f34ef026dd858be26c7dcbd998"></a>
@@ -689,7 +654,7 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;<a class="el" href="classhuman_1_1_human_forces.html">human::HumanForces</a>&gt; HumanDynamicsEstimator::m_humanForcesPort</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;human::HumanForces&gt; HumanDynamicsEstimator::m_humanForcesPort</td>
         </tr>
       </table>
   </td>
@@ -698,8 +663,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00077">77</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +674,7 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;<a class="el" href="classhuman_1_1_human_state.html">human::HumanState</a>&gt; HumanDynamicsEstimator::m_humanJointConfigurationPort</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;human::HumanState&gt; HumanDynamicsEstimator::m_humanJointConfigurationPort</td>
         </tr>
       </table>
   </td>
@@ -720,8 +683,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00075">75</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -767,8 +728,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00106">106</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a9b7325fc9e9d8f98f7b9cfa49a9cdd87"></a>
@@ -788,8 +747,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00107">107</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -811,8 +768,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00103">103</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ab7e4cf78fc0a269a69d2bfa83bdfc353"></a>
@@ -832,8 +787,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00124">124</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -855,8 +808,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00123">123</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a4ac55d4bfc2b88a6a4b65b48c70e4511"></a>
@@ -867,7 +818,7 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;<a class="el" href="classhuman_1_1_human_dynamics.html">human::HumanDynamics</a>&gt; HumanDynamicsEstimator::m_outputPort</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;human::HumanDynamics&gt; HumanDynamicsEstimator::m_outputPort</td>
         </tr>
       </table>
   </td>
@@ -876,8 +827,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00079">79</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -899,8 +848,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00072">72</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a3d76750624c737673c464bf5adf8ce07"></a>
@@ -920,8 +867,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00097">97</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -943,8 +888,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00098">98</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="afb09ba2d79c97f64d47c048b9ec805fc"></a>
@@ -964,8 +907,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00099">99</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -987,8 +928,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00100">100</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a8a149e27fd95b560ea64eaabeac555fe"></a>
@@ -1000,8 +939,6 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00093">93</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
 
 </div>
 </div>
@@ -1015,20 +952,22 @@ Eigen::ColMajor &gt;&#160;&#160;&#160;<a class="el" href="class_human_dynamics_e
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_dynamics_estimator_8h_source.html#l00092">92</a> of file <a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/robotology/human-dynamics-estimation/human-dynamics-estimator/include/<a class="el" href="_human_dynamics_estimator_8h_source.html">HumanDynamicsEstimator.h</a></li>
-<li>/home/travis/build/robotology/human-dynamics-estimation/human-dynamics-estimator/src/<a class="el" href="_human_dynamics_estimator_8cpp_source.html">HumanDynamicsEstimator.cpp</a></li>
+<li>/home/travis/build/robotology/human-dynamics-estimation/human-dynamics-estimator/src/<a class="el" href="_human_dynamics_estimator_8cpp.html">HumanDynamicsEstimator.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_human_dynamics_estimator.html">HumanDynamicsEstimator</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

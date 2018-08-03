@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: HumanForcesProvider Class Reference</title>
+<title>HumanDynamicsEstimation: HumanForcesProvider Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,11 +69,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_human_forces_provider.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,7 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -96,15 +116,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for HumanForcesProvider:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_human_forces_provider__inherit__graph.svg" width="227" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_human_forces_provider__inherit__graph.svg" width="163" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-<div class="dynheader">
-Collaboration diagram for HumanForcesProvider:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_human_forces_provider__coll__graph.svg" width="100%" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -112,19 +126,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a84a4f50ab71aceb71eafc3c4c2a83b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18865cc638746e145a1c073e17f08384"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a18865cc638746e145a1c073e17f08384">~HumanForcesProvider</a> ()</td></tr>
 <tr class="separator:a18865cc638746e145a1c073e17f08384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1961436c81e5ad5527d00ba840bd1cb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#ab1961436c81e5ad5527d00ba840bd1cb">getPeriod</a> ()</td></tr>
-<tr class="separator:ab1961436c81e5ad5527d00ba840bd1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a697d770120c8a65a7bb76895b636fab4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a697d770120c8a65a7bb76895b636fab4">configure</a> (yarp::os::ResourceFinder &amp;rf)</td></tr>
-<tr class="separator:a697d770120c8a65a7bb76895b636fab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a2b38b8c10ddf1cf53a1350a282be68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a7a2b38b8c10ddf1cf53a1350a282be68">updateModule</a> ()</td></tr>
-<tr class="separator:a7a2b38b8c10ddf1cf53a1350a282be68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9abf77e32de62429e520fb50cfa5eb5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a9abf77e32de62429e520fb50cfa5eb5a">close</a> ()</td></tr>
-<tr class="separator:a9abf77e32de62429e520fb50cfa5eb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833414b14c7eb2911889d925c466dbd7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a833414b14c7eb2911889d925c466dbd7">getPeriod</a> () override</td></tr>
+<tr class="separator:a833414b14c7eb2911889d925c466dbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4abe73b1d36ff29167a9ed9c18a136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a3d4abe73b1d36ff29167a9ed9c18a136">configure</a> (yarp::os::ResourceFinder &amp;rf) override</td></tr>
+<tr class="separator:a3d4abe73b1d36ff29167a9ed9c18a136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f2f627fdeefb8efa5903d5b7a93d62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#aa6f2f627fdeefb8efa5903d5b7a93d62">updateModule</a> () override</td></tr>
+<tr class="separator:aa6f2f627fdeefb8efa5903d5b7a93d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9742390cd8d8719fc33438165f8f6190"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a9742390cd8d8719fc33438165f8f6190">close</a> () override</td></tr>
+<tr class="separator:a9742390cd8d8719fc33438165f8f6190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a30808315a1e51f7a948e08d7ef85a532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; <a class="el" href="classhuman_1_1_human_state.html">human::HumanState</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a30808315a1e51f7a948e08d7ef85a532">getHumanStatePort</a> (const yarp::os::Searchable &amp;config)</td></tr>
+&lt; human::HumanState &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a30808315a1e51f7a948e08d7ef85a532">getHumanStatePort</a> (const yarp::os::Searchable &amp;config)</td></tr>
 <tr class="separator:a30808315a1e51f7a948e08d7ef85a532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af74fe0dd2e600f85ccfaa3c24ff165f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#af74fe0dd2e600f85ccfaa3c24ff165f3">getRobotEncodersInterface</a> (const yarp::os::Searchable &amp;config, const std::vector&lt; std::string &gt; &amp;robot_jointList, yarp::dev::IEncoders *&amp;encoders)</td></tr>
 <tr class="separator:af74fe0dd2e600f85ccfaa3c24ff165f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,14 +150,14 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a27ff6eb9d9758f80a1cd219bf0e81029"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a27ff6eb9d9758f80a1cd219bf0e81029">m_humanConfigured</a></td></tr>
 <tr class="separator:a27ff6eb9d9758f80a1cd219bf0e81029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa7925fdb7384624c39e03a3a80b5b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; <a class="el" href="classhuman_1_1_human_state.html">human::HumanState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a1aa7925fdb7384624c39e03a3a80b5b8">m_humanJointConfigurationPort</a></td></tr>
+&lt; human::HumanState &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a1aa7925fdb7384624c39e03a3a80b5b8">m_humanJointConfigurationPort</a></td></tr>
 <tr class="separator:a1aa7925fdb7384624c39e03a3a80b5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55886885ace0f609a296e8976d8af34b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a55886885ace0f609a296e8976d8af34b">m_robotConfigured</a></td></tr>
 <tr class="separator:a55886885ace0f609a296e8976d8af34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a843dd4c87bcec2581f3082c6d5fa54"><td class="memItemLeft" align="right" valign="top">yarp::dev::PolyDriver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a5a843dd4c87bcec2581f3082c6d5fa54">m_robot</a></td></tr>
 <tr class="separator:a5a843dd4c87bcec2581f3082c6d5fa54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae34a54ed1e739f3822aec9dcd39019ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; <a class="el" href="classhuman_1_1_human_forces.html">human::HumanForces</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#ae34a54ed1e739f3822aec9dcd39019ff">m_outputPort</a></td></tr>
+&lt; human::HumanForces &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#ae34a54ed1e739f3822aec9dcd39019ff">m_outputPort</a></td></tr>
 <tr class="separator:ae34a54ed1e739f3822aec9dcd39019ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25fb0030b7f0e3b89ba0b08594323cae"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classhuman_1_1_force_reader.html">human::ForceReader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a25fb0030b7f0e3b89ba0b08594323cae">m_readers</a></td></tr>
 <tr class="separator:a25fb0030b7f0e3b89ba0b08594323cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,25 +166,22 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad84e9082e5cdfb59818b1f85b4f5c431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76e9f6db3c26f5d1e30de9900eb02b18"><td class="memItemLeft" align="right" valign="top">std::vector<br class="typebreak"/>
 &lt; <a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a><br class="typebreak"/>
-&lt; yarp::sig::Vector &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a76e9f6db3c26f5d1e30de9900eb02b18">m_ports</a></td></tr>
+&lt; <a class="el" href="namespaceyarp_1_1sig.html#a10fa64a84887b4a20bbb2e0875dfd697">yarp::sig::Vector</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a76e9f6db3c26f5d1e30de9900eb02b18">m_ports</a></td></tr>
 <tr class="separator:a76e9f6db3c26f5d1e30de9900eb02b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade608becc91353c6d806c94245f17e31"><td class="memItemLeft" align="right" valign="top">yarp::os::Node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#ade608becc91353c6d806c94245f17e31">m_rosNode</a></td></tr>
 <tr class="separator:ade608becc91353c6d806c94245f17e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5837af83f1b563b46ded701f0507e58"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#af5837af83f1b563b46ded701f0507e58">m_tfPrefix</a></td></tr>
 <tr class="separator:af5837af83f1b563b46ded701f0507e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af53ccea3b7564a80ccd6353c6052a1b7"><td class="memItemLeft" align="right" valign="top">std::vector<br class="typebreak"/>
+<tr class="memitem:a08194de96812e031fc00f40fbe286e41"><td class="memItemLeft" align="right" valign="top">std::vector<br class="typebreak"/>
 &lt; <a class="el" href="classyarp_1_1os_1_1_publisher.html">yarp::os::Publisher</a><br class="typebreak"/>
-&lt; <a class="el" href="namespacegeometry__msgs.html#a0e9631f0d1474a34b7897e1a9edcb500">geometry_msgs::WrenchStamped</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#af53ccea3b7564a80ccd6353c6052a1b7">m_topics</a></td></tr>
-<tr class="separator:af53ccea3b7564a80ccd6353c6052a1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+&lt; yarp::rosmsg::geometry_msgs::WrenchStamped &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a08194de96812e031fc00f40fbe286e41">m_topics</a></td></tr>
+<tr class="separator:a08194de96812e031fc00f40fbe286e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e369327a9a6674685c9f3fbc5103f3f"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#a7e369327a9a6674685c9f3fbc5103f3f">m_rosSequence</a></td></tr>
 <tr class="separator:a7e369327a9a6674685c9f3fbc5103f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f4fdfb3cd7481573243830a9d70ff6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_forces_provider.html#ab2f4fdfb3cd7481573243830a9d70ff6">m_rosForcesScale</a></td></tr>
 <tr class="separator:ab2f4fdfb3cd7481573243830a9d70ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00046">46</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a84a4f50ab71aceb71eafc3c4c2a83b8d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,8 +195,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Default constructor. </p>
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00160">160</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
 
 </div>
 </div>
@@ -211,14 +220,15 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00167">167</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9abf77e32de62429e520fb50cfa5eb5a"></a>
+<a class="anchor" id="a9742390cd8d8719fc33438165f8f6190"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool HumanForcesProvider::close </td>
@@ -227,16 +237,22 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Close module, release allocated memory and perform cleanup. </p>
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00588">588</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a697d770120c8a65a7bb76895b636fab4"></a>
+<a class="anchor" id="a3d4abe73b1d36ff29167a9ed9c18a136"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool HumanForcesProvider::configure </td>
@@ -246,6 +262,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Module configuration by means of:</p>
 <ul>
@@ -253,8 +274,6 @@ Private Attributes</h2></td></tr>
 <li>specific force plates parameters</li>
 <li>specific robot parameters </li>
 </ul>
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00176">176</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
 
 </div>
 </div>
@@ -266,7 +285,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt; <a class="el" href="classhuman_1_1_human_state.html">human::HumanState</a> &gt; * HumanForcesProvider::getHumanStatePort </td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt; human::HumanState &gt; * HumanForcesProvider::getHumanStatePort </td>
           <td>(</td>
           <td class="paramtype">const yarp::os::Searchable &amp;&#160;</td>
           <td class="paramname"><em>config</em></td><td>)</td>
@@ -280,13 +299,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00065">65</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="ab1961436c81e5ad5527d00ba840bd1cb"></a>
+<a class="anchor" id="a833414b14c7eb2911889d925c466dbd7"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double HumanForcesProvider::getPeriod </td>
@@ -295,10 +315,13 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Return the module period. </p>
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00170">170</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
 
 </div>
 </div>
@@ -340,13 +363,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00098">98</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a7a2b38b8c10ddf1cf53a1350a282be68"></a>
+<a class="anchor" id="aa6f2f627fdeefb8efa5903d5b7a93d62"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool HumanForcesProvider::updateModule </td>
@@ -355,10 +379,13 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Module updating: at each timestamp it writes a transformed force on an output YARP port. </p>
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8cpp_source.html#l00548">548</a> of file <a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a>.</p>
 
 </div>
 </div>
@@ -381,8 +408,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00066">66</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a27ff6eb9d9758f80a1cd219bf0e81029"></a>
@@ -403,8 +428,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00054">54</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a1aa7925fdb7384624c39e03a3a80b5b8"></a>
@@ -415,7 +438,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;<a class="el" href="classhuman_1_1_human_state.html">human::HumanState</a>&gt; HumanForcesProvider::m_humanJointConfigurationPort</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;human::HumanState&gt; HumanForcesProvider::m_humanJointConfigurationPort</td>
         </tr>
       </table>
   </td>
@@ -424,8 +447,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00055">55</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +458,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;<a class="el" href="classhuman_1_1_human_forces.html">human::HumanForces</a>&gt; HumanForcesProvider::m_outputPort</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;human::HumanForces&gt; HumanForcesProvider::m_outputPort</td>
         </tr>
       </table>
   </td>
@@ -446,8 +467,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00062">62</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
 
 </div>
 </div>
@@ -469,8 +488,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00049">49</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a76e9f6db3c26f5d1e30de9900eb02b18"></a>
@@ -481,7 +498,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;yarp::sig::Vector&gt;*&gt; HumanForcesProvider::m_ports</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classyarp_1_1os_1_1_buffered_port.html">yarp::os::BufferedPort</a>&lt;<a class="el" href="namespaceyarp_1_1sig.html#a10fa64a84887b4a20bbb2e0875dfd697">yarp::sig::Vector</a>&gt;*&gt; HumanForcesProvider::m_ports</td>
         </tr>
       </table>
   </td>
@@ -490,8 +507,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00067">67</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
 
 </div>
 </div>
@@ -513,8 +528,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00065">65</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5a843dd4c87bcec2581f3082c6d5fa54"></a>
@@ -534,8 +547,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00059">59</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
 
 </div>
 </div>
@@ -557,8 +568,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00058">58</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ab2f4fdfb3cd7481573243830a9d70ff6"></a>
@@ -578,8 +587,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00073">73</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
 
 </div>
 </div>
@@ -601,8 +608,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00069">69</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a7e369327a9a6674685c9f3fbc5103f3f"></a>
@@ -622,8 +627,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00072">72</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
 
 </div>
 </div>
@@ -645,11 +648,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00070">70</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="af53ccea3b7564a80ccd6353c6052a1b7"></a>
+<a class="anchor" id="a08194de96812e031fc00f40fbe286e41"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -657,7 +658,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classyarp_1_1os_1_1_publisher.html">yarp::os::Publisher</a>&lt;<a class="el" href="namespacegeometry__msgs.html#a0e9631f0d1474a34b7897e1a9edcb500">geometry_msgs::WrenchStamped</a>&gt;*&gt; HumanForcesProvider::m_topics</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classyarp_1_1os_1_1_publisher.html">yarp::os::Publisher</a>&lt;yarp::rosmsg::geometry_msgs::WrenchStamped&gt;*&gt; HumanForcesProvider::m_topics</td>
         </tr>
       </table>
   </td>
@@ -667,20 +668,22 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_forces_provider_8h_source.html#l00071">71</a> of file <a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/robotology/human-dynamics-estimation/human-forces-provider/include/<a class="el" href="_human_forces_provider_8h_source.html">HumanForcesProvider.h</a></li>
-<li>/home/travis/build/robotology/human-dynamics-estimation/human-forces-provider/src/<a class="el" href="_human_forces_provider_8cpp_source.html">HumanForcesProvider.cpp</a></li>
+<li>/home/travis/build/robotology/human-dynamics-estimation/human-forces-provider/src/<a class="el" href="_human_forces_provider_8cpp.html">HumanForcesProvider.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_human_forces_provider.html">HumanForcesProvider</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

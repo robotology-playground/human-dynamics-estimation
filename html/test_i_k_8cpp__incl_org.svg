@@ -41,11 +41,8 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="_u_r_d_fdir_8h.html" target="_top" xlink:title="URDFdir.h">
-<polygon fill="none" stroke="black" points="283,-56.5 283,-75.5 347,-75.5 347,-56.5 283,-56.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="283,-56.5 283,-75.5 347,-75.5 347,-56.5 283,-56.5"/>
 <text text-anchor="middle" x="315" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">URDFdir.h</text>
-</a>
-</g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>

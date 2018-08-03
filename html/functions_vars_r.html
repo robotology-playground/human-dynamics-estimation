@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: Class Members - Variables</title>
+<title>HumanDynamicsEstimation: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,9 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -102,11 +108,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_vars_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_vars_x.html#index_x"><span>x</span></a></li>
-      <li><a href="functions_vars_y.html#index_y"><span>y</span></a></li>
-      <li><a href="functions_vars_z.html#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_vars_r.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -125,8 +143,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 &#160;
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>realJointsNames
-: <a class="el" href="struct_effort_publisher.html#af1931fac72c473b36010a0ea6fa25169">EffortPublisher</a>
+<li>readHumanTransform
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a65e4085e24088f70de8440a31959598e">HumanRobotPose::impl</a>
 </li>
 <li>relativeJacobian
 : <a class="el" href="structhuman_1_1_link_pair_info.html#aca3652f82cf7799e1277bbf017c2681e">human::LinkPairInfo</a>
@@ -136,6 +154,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>remcalib
 : <a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a2a7d62159a5458ce9414559ac5f616c2">yarp::dev::RemappedSubControlBoard</a>
+</li>
+<li>remoteControlBoardRemapper
+: <a class="el" href="class_human_robot_pose_1_1impl.html#ab2c8096cc3f8265c1b632d5dcd3a8015">HumanRobotPose::impl</a>
 </li>
 <li>robotBaseLinkIndex
 : <a class="el" href="class_robot_base_pose_publisher.html#ade10d148c18ac876cf3dd491621acd83">RobotBasePosePublisher</a>
@@ -155,14 +176,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>robotEncoders
 : <a class="el" href="class_robot_base_pose_publisher.html#a9c6013878f1804511dfeff521f8ca8b7">RobotBasePosePublisher</a>
 </li>
+<li>robotJointsPosition
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a3914dd71f422c51f468506ad7b87b051">HumanRobotPose::impl</a>
+</li>
+<li>robotJointsVelocity
+: <a class="el" href="class_human_robot_pose_1_1impl.html#aab08197974820271e0472150992ec49a">HumanRobotPose::impl</a>
+</li>
+<li>robotKinDynComp
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a6b62326e9a673145d289a77e3b2ea0be">HumanRobotPose::impl</a>
+</li>
 <li>robotKinematicFrameIndex
 : <a class="el" href="class_robot_base_pose_publisher.html#ab709ea6edd49698e605fe349cace4657">RobotBasePosePublisher</a>
 </li>
 <li>rosSequenceCounter
 : <a class="el" href="class_robot_base_pose_publisher.html#aa006baf22151d2fc33f4a79ded8e7007">RobotBasePosePublisher</a>
-</li>
-<li>rotation
-: <a class="el" href="classgeometry__msgs___transform.html#ae3de1f1411b7e870986fcf840303a457">geometry_msgs_Transform</a>
 </li>
 <li>rpcPort
 : <a class="el" href="class_robot_base_pose_publisher.html#af33472e6fdbfb24dfe8826792e4dfd63">RobotBasePosePublisher</a>
@@ -170,11 +197,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

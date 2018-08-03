@@ -1,23 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classyarp_1_1os_1_1_port_writer.html" title="PortWriter" alt="" coords="6,464,87,491"/>
-<area shape="rect" id="node2" href="$classhuman_1_1_force6_d_1_1_editor.html" title="human::Force6D::Editor" alt="" coords="165,748,326,775"/>
-<area shape="rect" id="node3" href="$classhuman_1_1_human_dynamics_1_1_editor.html" title="human::HumanDynamics\l::Editor" alt="" coords="160,799,331,841"/>
-<area shape="rect" id="node4" href="$classhuman_1_1_human_forces_1_1_editor.html" title="human::HumanForces\l::Editor" alt="" coords="170,865,321,906"/>
-<area shape="rect" id="node5" href="$classhuman_1_1_human_state_1_1_editor.html" title="human::HumanState::\lEditor" alt="" coords="170,930,321,971"/>
-<area shape="rect" id="node6" href="$classhuman_1_1_joint_dynamics_estimation_1_1_editor.html" title="human::JointDynamicsEstimation\l::Editor" alt="" coords="136,5,355,46"/>
-<area shape="rect" id="node7" href="$classhuman_1_1_link_dynamics_estimation_1_1_editor.html" title="human::LinkDynamicsEstimation\l::Editor" alt="" coords="138,70,353,111"/>
-<area shape="rect" id="node8" href="$classhuman_1_1_quaternion_1_1_editor.html" title="human::Quaternion::\lEditor" alt="" coords="175,135,315,177"/>
-<area shape="rect" id="node9" href="$classhuman_1_1_vector3_1_1_editor.html" title="human::Vector3::Editor" alt="" coords="167,201,323,228"/>
-<area shape="rect" id="node10" href="$classjoint_data_1_1_editor.html" title="jointData::Editor" alt="" coords="187,252,303,279"/>
-<area shape="rect" id="node11" href="$classxsens_1_1_frame_referece_1_1_editor.html" title="xsens::FrameReferece\l::Editor" alt="" coords="168,303,323,345"/>
-<area shape="rect" id="node12" href="$classxsens_1_1_quaternion_1_1_editor.html" title="xsens::Quaternion::\lEditor" alt="" coords="177,369,313,410"/>
-<area shape="rect" id="node13" href="$classxsens_1_1_vector3_1_1_editor.html" title="xsens::Vector3::Editor" alt="" coords="169,435,321,461"/>
-<area shape="rect" id="node14" href="$classxsens_1_1_xsens_segment_data_1_1_editor.html" title="xsens::XsensSegmentData\l::Editor" alt="" coords="154,486,337,527"/>
-<area shape="rect" id="node15" href="$classxsens_1_1_xsens_segments_frame_1_1_editor.html" title="xsens::XsensSegmentsFrame\l::Editor" alt="" coords="146,551,345,593"/>
-<area shape="rect" id="node16" href="$classxsens_1_1_xsens_sensor_data_1_1_editor.html" title="xsens::XsensSensorData\l::Editor" alt="" coords="160,617,331,658"/>
-<area shape="rect" id="node17" href="$classxsens_1_1_xsens_sensors_frame_1_1_editor.html" title="xsens::XsensSensorsFrame\l::Editor" alt="" coords="152,682,339,723"/>
-<area shape="rect" id="node18" href="$classyarp_1_1os_1_1_wire.html" title="Wire" alt="" coords="22,537,71,564"/>
-<area shape="rect" id="node19" href="$classhuman_1_1_human_state_provider_service.html" title="human::HumanStateProvider\lService" alt="" coords="150,995,341,1037"/>
-<area shape="rect" id="node21" href="$classxsens_1_1_xsens_driver_service.html" title="xsens::XsensDriverService" alt="" coords="155,1061,336,1088"/>
-<area shape="rect" id="node20" href="$classhuman_1_1_human_state_provider_1_1_human_state_provider_private.html" title="human::HumanStateProvider\l::HumanStateProviderPrivate" alt="" coords="403,995,595,1037"/>
+<area shape="rect" id="node2" href="$classjoint_data.html" title="jointData" alt="" coords="152,5,227,32"/>
 </map>

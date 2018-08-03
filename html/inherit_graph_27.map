@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classyarp_1_1dev_1_1_remapped_control_boards.html" title="yarp::dev::RemappedControl\lBoards" alt="" coords="5,5,195,46"/>
+<area shape="rect" id="node2" href="$classyarp_1_1dev_1_1_read_only_control_board_remapper.html" title="yarp::dev::ReadOnlyControl\lBoardRemapper" alt="" coords="176,93,360,134"/>
+<area shape="rect" id="node4" href="$classyarp_1_1dev_1_1_read_only_remote_control_board.html" title="Readonly version of the remote control board. " alt="" coords="174,158,362,199"/>
+<area shape="rect" id="node3" href="$classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html" title="yarp::dev::ReadOnlyRemote\lControlBoardRemapper" alt="" coords="411,93,599,134"/>
 </map>

@@ -1,0 +1,10 @@
+<map id="yarp::os::BufferedPort&lt; T &gt;" name="yarp::os::BufferedPort&lt; T &gt;">
+<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; yarp::sig::Vector \&gt;" alt="" coords="438,5,589,46"/>
+<area shape="rect" id="node3" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; jointData \&gt;" alt="" coords="438,70,589,111"/>
+<area shape="rect" id="node5" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; human::HumanDynamics \&gt;" alt="" coords="416,135,611,177"/>
+<area shape="rect" id="node6" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; HumanState \&gt;" alt="" coords="438,201,589,242"/>
+<area shape="rect" id="node7" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; human::HumanState \&gt;" alt="" coords="430,266,597,307"/>
+<area shape="rect" id="node8" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; XsensSegmentsFrame \&gt;" alt="" coords="424,331,603,373"/>
+<area shape="rect" id="node9" href="$classyarp_1_1os_1_1_buffered_port.html" title="yarp::os::BufferedPort\l\&lt; human::HumanForces \&gt;" alt="" coords="426,397,601,438"/>
+<area shape="rect" id="node4" href="$class_state_extended_input_port.html" title="StateExtendedInputPort" alt="" coords="662,77,823,104"/>
+</map>

@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: Class Members - Variables</title>
+<title>HumanDynamicsEstimation: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,9 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -102,11 +108,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_vars_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_vars_x.html#index_x"><span>x</span></a></li>
-      <li><a href="functions_vars_y.html#index_y"><span>y</span></a></li>
-      <li><a href="functions_vars_z.html#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_vars_s.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -125,40 +143,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 &#160;
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>sec
-: <a class="el" href="class_tick_time.html#a04f0ae43959362f84d8df27c88bd7217">TickTime</a>
-</li>
 <li>segmentName
 : <a class="el" href="structhuman_1_1_segment_info.html#ae6817198ed066bfbba7e4b8c99463491">human::SegmentInfo</a>
 </li>
 <li>segments
 : <a class="el" href="class_human_t_f_bridge.html#a9ba85f6b156e6a09c7418fdf81beaf36">HumanTFBridge</a>
 </li>
-<li>segmentsData
-: <a class="el" href="classxsens_1_1_xsens_segments_frame.html#a6d449796a8f460980217985c1a0e990b">xsens::XsensSegmentsFrame</a>
-</li>
 <li>selectedJointsBuffers
 : <a class="el" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a04784280f5475e225e31642659aa85f5">yarp::dev::ReadOnlyControlBoardRemapper</a>
-</li>
-<li>sensorsData
-: <a class="el" href="classxsens_1_1_xsens_sensors_frame.html#a7c1231db39c1ce77db0ba24205a70cc8">xsens::XsensSensorsFrame</a>
-</li>
-<li>seq
-: <a class="el" href="classstd__msgs___header.html#a39726d6d3cb6fae2901fedc1f7821015">std_msgs_Header</a>
 </li>
 <li>solverPointer
 : <a class="el" href="classhuman_1_1_inverse_kinematics_1_1_inverse_kinematics_private.html#a7ef83f5dab57ae96eccf76a2152642f8">human::InverseKinematics::InverseKinematicsPrivate</a>
 </li>
-<li>spatialAcceleration
-: <a class="el" href="classhuman_1_1_link_dynamics_estimation.html#a82e3e063cf8a3717422d4d0cc643f51a">human::LinkDynamicsEstimation</a>
+<li>sphericalJointName
+: <a class="el" href="struct_joint_effort_data.html#a99864e9a934c2d0c59c1846bb554ae7c">JointEffortData</a>
 </li>
 <li>stamp
-: <a class="el" href="classstd__msgs___header.html#ae360d557889d1f25ceabed0fbfd72ae6">std_msgs_Header</a>
-, <a class="el" href="classyarp_1_1dev_1_1_control_board_remapper_buffers.html#a956e4d3a5c913e980cca352c3a7359c4">yarp::dev::ControlBoardRemapperBuffers</a>
-</li>
-<li>status
-: <a class="el" href="classxsens_1_1_xsens_segments_frame.html#a5bef96e35cefd5e4cd2685dc15ce9ff7">xsens::XsensSegmentsFrame</a>
-, <a class="el" href="classxsens_1_1_xsens_sensors_frame.html#a13496289edec4cc7ffb830ac5ac9cfa9">xsens::XsensSensorsFrame</a>
+: <a class="el" href="classyarp_1_1dev_1_1_control_board_remapper_buffers.html#a956e4d3a5c913e980cca352c3a7359c4">yarp::dev::ControlBoardRemapperBuffers</a>
 </li>
 <li>subControlBoardIndex
 : <a class="el" href="classyarp_1_1dev_1_1_remapped_axis.html#ae0aa5bbe2803baf4083563ed3aebac13">yarp::dev::RemappedAxis</a>
@@ -174,11 +175,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

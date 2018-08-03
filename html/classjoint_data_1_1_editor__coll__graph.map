@@ -1,6 +1,0 @@
-<map id="jointData::Editor" name="jointData::Editor">
-<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_wire.html" title="{Wire\n||}" alt="" coords="5,505,53,583"/>
-<area shape="rect" id="node3" href="$classyarp_1_1os_1_1_port_writer.html" title="{PortWriter\n||}" alt="" coords="78,505,159,583"/>
-<area shape="rect" id="node4" href="$classjoint_data.html" title="{jointData\n||+ jointData()\l+ jointData()\l+ jointData()\l+ operator=()\l+ read()\l+ read()\l+ write()\l+ write()\l+ toString()\l&#45; write_jointPosition()\l&#45; nested_write_jointPosition()\l&#45; write_jointPosition\l_isValid()\l&#45; nested_write_jointPosition\l_isValid()\l&#45; write_jointVelocity()\l&#45; nested_write_jointVelocity()\l&#45; write_jointVelocity\l_isValid()\l&#45; nested_write_jointVelocity\l_isValid()\l&#45; write_jointAcceleration()\l&#45; nested_write_jointAcceleration()\land 70 more...\l}" alt="" coords="391,337,605,751"/>
-<area shape="rect" id="node5" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="651,5,748,83"/>
-</map>

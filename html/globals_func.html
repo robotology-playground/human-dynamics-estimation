@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: File Members</title>
+<title>HumanDynamicsEstimation: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -58,30 +66,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
-  <div id="navrow2" class="tabs2">
-    <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li class="current"><a href="globals.html"><span>File&#160;Members</span></a></li>
-    </ul>
-  </div>
   <div id="navrow3" class="tabs2">
     <ul class="tablist">
       <li><a href="globals.html"><span>All</span></a></li>
       <li class="current"><a href="globals_func.html"><span>Functions</span></a></li>
       <li><a href="globals_vars.html"><span>Variables</span></a></li>
+      <li><a href="globals_type.html"><span>Typedefs</span></a></li>
+      <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
+      <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
       <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="#index_g"><span>g</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_n"><span>n</span></a></li>
-      <li><a href="#index_p"><span>p</span></a></li>
-      <li class="current"><a href="#index_r"><span>r</span></a></li>
+      <li class="current"><a href="#index_p"><span>p</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_func.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -99,13 +116,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 &#160;
 
-<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
-<li>getAbsModelPath()
-: <a class="el" href="_u_r_d_fdir_8h.html#aebd574477cd15903defdf793005aeef7">URDFdir.h</a>
-</li>
-</ul>
-
-
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>main()
 : <a class="el" href="_c_make_c_compiler_id_8c.html#a0ddf1224851353fc92bfbff6f499fa97">CMakeCCompilerId.c</a>
@@ -116,7 +126,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="_human_joint_state_bridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">HumanJointStateBridge.cpp</a>
 , <a class="el" href="_human_effort_bridge_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">HumanEffortBridge.cpp</a>
 , <a class="el" href="human-state-provider_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main.cpp</a>
-, <a class="el" href="_check_for_pthreads_8cxx.html#adacbe0175a79dff748855d8c9839f82b">CheckForPthreads.cxx</a>
 , <a class="el" href="feature__tests_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">feature_tests.cxx</a>
 , <a class="el" href="feature__tests_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">feature_tests.c</a>
 , <a class="el" href="_c_make_c_x_x_compiler_id_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">CMakeCXXCompilerId.cpp</a>
@@ -127,10 +136,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
 <li>normalizeSecNSec()
 : <a class="el" href="_human_forces_provider_8cpp.html#a255173023f6f26a35160d6d01ebaca74">HumanForcesProvider.cpp</a>
-, <a class="el" href="_robot_base_pose_publisher_8cpp.html#a4d29ede2923895d1f44c8b07447f8957">RobotBasePosePublisher.cpp</a>
-, <a class="el" href="_human_t_f_bridge_8cpp.html#a4d29ede2923895d1f44c8b07447f8957">HumanTFBridge.cpp</a>
-, <a class="el" href="_human_joint_state_bridge_8cpp.html#a4d29ede2923895d1f44c8b07447f8957">HumanJointStateBridge.cpp</a>
+, <a class="el" href="_robot_base_pose_publisher_8cpp.html#a8ad80ff330c546557d20a4f33a7e2632">RobotBasePosePublisher.cpp</a>
+, <a class="el" href="_human_t_f_bridge_8cpp.html#a8ad80ff330c546557d20a4f33a7e2632">HumanTFBridge.cpp</a>
+, <a class="el" href="_human_joint_state_bridge_8cpp.html#a8ad80ff330c546557d20a4f33a7e2632">HumanJointStateBridge.cpp</a>
 , <a class="el" href="_human_effort_bridge_8cpp.html#a4d29ede2923895d1f44c8b07447f8957">HumanEffortBridge.cpp</a>
+, <a class="el" href="_human_robot_pose_8cpp.html#a4d29ede2923895d1f44c8b07447f8957">HumanRobotPose.cpp</a>
 </li>
 </ul>
 
@@ -141,9 +151,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>parseFrameListOption()
 : <a class="el" href="_human_dynamics_estimator_8cpp.html#a8e5eea60c098769618bfe22198b87f22">HumanDynamicsEstimator.cpp</a>
-, <a class="el" href="_human_t_f_bridge_8cpp.html#abb0faac69355b6b004ed6937c663ae3c">HumanTFBridge.cpp</a>
-, <a class="el" href="_human_effort_bridge_8cpp.html#abb0faac69355b6b004ed6937c663ae3c">HumanEffortBridge.cpp</a>
+, <a class="el" href="_human_robot_pose_8cpp.html#a744c7160b0985e1313eb97e2b1fa8713">HumanRobotPose.cpp</a>
+, <a class="el" href="_human_effort_bridge_8cpp.html#a744c7160b0985e1313eb97e2b1fa8713">HumanEffortBridge.cpp</a>
 , <a class="el" href="_human_joint_state_bridge_8cpp.html#abb0faac69355b6b004ed6937c663ae3c">HumanJointStateBridge.cpp</a>
+, <a class="el" href="_human_t_f_bridge_8cpp.html#abb0faac69355b6b004ed6937c663ae3c">HumanTFBridge.cpp</a>
 , <a class="el" href="_robot_base_pose_publisher_8cpp.html#abb0faac69355b6b004ed6937c663ae3c">RobotBasePosePublisher.cpp</a>
 </li>
 <li>parseMeasurementsPriorsOption()
@@ -151,34 +162,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>parsePositionVector()
 : <a class="el" href="_human_forces_provider_8cpp.html#ae43ce92c1aa48e9db9327a2bc4e9eac4">HumanForcesProvider.cpp</a>
+, <a class="el" href="_human_robot_pose_8cpp.html#af0b663124d28be9e7855fa9f3d177de2">HumanRobotPose.cpp</a>
 , <a class="el" href="_human_joint_state_bridge_8cpp.html#a952ffa74d719cb0accfa130d8c183e10">HumanJointStateBridge.cpp</a>
 , <a class="el" href="_robot_base_pose_publisher_8cpp.html#a952ffa74d719cb0accfa130d8c183e10">RobotBasePosePublisher.cpp</a>
 </li>
 <li>parseRotationMatrix()
 : <a class="el" href="_human_forces_provider_8cpp.html#af160598334f0649392183fc12be93024">HumanForcesProvider.cpp</a>
-, <a class="el" href="_robot_base_pose_publisher_8cpp.html#a07e0b7daa516266f837008f9fa45829a">RobotBasePosePublisher.cpp</a>
+, <a class="el" href="_human_robot_pose_8cpp.html#ad646fcd7ca9e36b73db7f22d50b9031f">HumanRobotPose.cpp</a>
 , <a class="el" href="_human_joint_state_bridge_8cpp.html#a07e0b7daa516266f837008f9fa45829a">HumanJointStateBridge.cpp</a>
+, <a class="el" href="_robot_base_pose_publisher_8cpp.html#a07e0b7daa516266f837008f9fa45829a">RobotBasePosePublisher.cpp</a>
 </li>
 <li>parseSensorsRemovalOptionAndRemoveSensors()
 : <a class="el" href="_human_dynamics_estimator_8cpp.html#a2549b7b5b64b0239b4428b1cedb6655e">HumanDynamicsEstimator.cpp</a>
+</li>
+<li>parseSphericalJointsData()
+: <a class="el" href="_human_effort_bridge_8cpp.html#a9e692216ea961b07f80d05ac9ee5aaec">HumanEffortBridge.cpp</a>
 </li>
 <li>parseStringListOption()
 : <a class="el" href="_human_forces_provider_8cpp.html#a541e2411859b30e79154920aa73fad6e">HumanForcesProvider.cpp</a>
 </li>
 </ul>
-
-
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>runner()
-: <a class="el" href="_check_for_pthreads_8cxx.html#a145dcd22b9dfbbf5ceb90ee23dbce251">CheckForPthreads.cxx</a>
-</li>
-</ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

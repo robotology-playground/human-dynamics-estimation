@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: Class Members</title>
+<title>HumanDynamicsEstimation: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,9 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -102,12 +108,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_x.html#index_x"><span>x</span></a></li>
-      <li><a href="functions_y.html#index_y"><span>y</span></a></li>
-      <li><a href="functions_z.html#index_z"><span>z</span></a></li>
       <li><a href="functions_~.html#index_~"><span>~</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_g.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -137,48 +155,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GenericFrameTransformer()
 : <a class="el" href="classhuman_1_1_generic_frame_transformer.html#a9d56ef06357e938ee3e370efcaf14918">human::GenericFrameTransformer</a>
 </li>
-<li>geometry_msgs_Quaternion()
-: <a class="el" href="classgeometry__msgs___quaternion.html#aea87988b4d6b314b266d4039b4de54f9">geometry_msgs_Quaternion</a>
-</li>
-<li>geometry_msgs_Transform()
-: <a class="el" href="classgeometry__msgs___transform.html#a5e6e76249c7ca98244b384eff79a51d1">geometry_msgs_Transform</a>
-</li>
-<li>geometry_msgs_TransformStamped()
-: <a class="el" href="classgeometry__msgs___transform_stamped.html#a80e9f001c614b84f2aeab0a7af193ecf">geometry_msgs_TransformStamped</a>
-</li>
-<li>geometry_msgs_Vector3()
-: <a class="el" href="classgeometry__msgs___vector3.html#a9e45e034ab67a97499259d501aa3861b">geometry_msgs_Vector3</a>
-</li>
-<li>geometry_msgs_Wrench()
-: <a class="el" href="classgeometry__msgs___wrench.html#a2a5c9370b8517248ae9f82d9f54d4d58">geometry_msgs_Wrench</a>
-</li>
-<li>geometry_msgs_WrenchStamped()
-: <a class="el" href="classgeometry__msgs___wrench_stamped.html#a4bb395915e15c6e8e00f746415228bcc">geometry_msgs_WrenchStamped</a>
-</li>
-<li>get_acceleration()
-: <a class="el" href="classhuman_1_1_joint_dynamics_estimation_1_1_editor.html#a4d29bbeffa3ace4d57dc9d673c262abd">human::JointDynamicsEstimation::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#a8126607721e45e0e89f3cfd7b80e89b9">xsens::XsensSegmentData::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_sensor_data_1_1_editor.html#a7f0ffa0a8f7868ba9a3cc2cf4f05f0b4">xsens::XsensSensorData::Editor</a>
-</li>
-<li>get_angularAcceleration()
-: <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#a3d7da83b31923a8a91151eb28df37de6">xsens::XsensSegmentData::Editor</a>
-</li>
-<li>get_angularVelocity()
-: <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#a3e2a3252595d67d16251d8e1bc619977">xsens::XsensSegmentData::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_sensor_data_1_1_editor.html#a389a50ef05da81dbd2181b2abe8e240f">xsens::XsensSensorData::Editor</a>
-</li>
-<li>get_appliedLink()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#a108c62d5f93153e370abc378450491f1">human::Force6D::Editor</a>
-</li>
-<li>get_baseOrientationWRTGlobal()
-: <a class="el" href="classhuman_1_1_human_state_1_1_editor.html#a73652c721e1dca7405aa26ac7a4d738f">human::HumanState::Editor</a>
-</li>
-<li>get_baseOriginWRTGlobal()
-: <a class="el" href="classhuman_1_1_human_state_1_1_editor.html#ac50da5bfc3cf8266df2521b7de53fc5b">human::HumanState::Editor</a>
-</li>
-<li>get_baseVelocityWRTGlobal()
-: <a class="el" href="classhuman_1_1_human_state_1_1_editor.html#a105a4e48c975b80d062c743bed173eb7">human::HumanState::Editor</a>
-</li>
 <li>get_bounds_info()
 : <a class="el" href="class_inverse_kinematics_i_p_o_p_t.html#a22e8fb2b77e43b9ad4e742f4731fb8df">InverseKinematicsIPOPT</a>
 , <a class="el" href="class_inverse_kinematics_v2_i_p_o_p_t.html#a6e7cb5391117147acfd006b802a6059d">InverseKinematicsV2IPOPT</a>
@@ -188,34 +164,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>get_controlMode_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#a4942017c89095fa5a2ad6a29e8cdb409">jointData::Editor</a>
-</li>
-<li>get_expressedFrame()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#ace54b4875b1e413869499f892b0e8d87">human::Force6D::Editor</a>
-</li>
-<li>get_externalWrench()
-: <a class="el" href="classhuman_1_1_link_dynamics_estimation_1_1_editor.html#a56d0c4ab08363e4c6a1bdb77222971e9">human::LinkDynamicsEstimation::Editor</a>
-</li>
-<li>get_forces()
-: <a class="el" href="classhuman_1_1_human_forces_1_1_editor.html#a467788320c053db529e7924f29bde0a7">human::HumanForces::Editor</a>
-</li>
-<li>get_frameName()
-: <a class="el" href="classxsens_1_1_frame_referece_1_1_editor.html#aeb53bdce5e638e0653d01eb6dd75f918">xsens::FrameReferece::Editor</a>
-</li>
-<li>get_frameReference()
-: <a class="el" href="classxsens_1_1_frame_referece_1_1_editor.html#a6960667fa85000aeb92e65e8eb8e75e4">xsens::FrameReferece::Editor</a>
-</li>
-<li>get_fx()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#a8c17cb91179fccf01bd14acd4f649cc9">human::Force6D::Editor</a>
-</li>
-<li>get_fy()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#afd1ea741c308f0c8836efbbef29b79ab">human::Force6D::Editor</a>
-</li>
-<li>get_fz()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#a0c97bf99d605bb26e8de68727ed0a956">human::Force6D::Editor</a>
-</li>
-<li>get_imaginary()
-: <a class="el" href="classhuman_1_1_quaternion_1_1_editor.html#ac722f096612b7d83f512f00d6b805dbb">human::Quaternion::Editor</a>
-, <a class="el" href="classxsens_1_1_quaternion_1_1_editor.html#a216ea96915e07507595bbb628c50f3f3">xsens::Quaternion::Editor</a>
 </li>
 <li>get_interactionMode()
 : <a class="el" href="classjoint_data_1_1_editor.html#a2c499e1bf9ed5f604a22491287469dec">jointData::Editor</a>
@@ -229,32 +177,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>get_jointAcceleration_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#addda8df63fdbb24d661bb584f50f46ac">jointData::Editor</a>
 </li>
-<li>get_jointName()
-: <a class="el" href="classhuman_1_1_joint_dynamics_estimation_1_1_editor.html#a0a72108ca900cde1359fa3ec6f8aece7">human::JointDynamicsEstimation::Editor</a>
-</li>
 <li>get_jointPosition()
 : <a class="el" href="classjoint_data_1_1_editor.html#a397d2df41b521e6bed6c813527d18613">jointData::Editor</a>
 </li>
 <li>get_jointPosition_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#a6e549678d076a578cd7b234d265a916f">jointData::Editor</a>
 </li>
-<li>get_jointVariables()
-: <a class="el" href="classhuman_1_1_human_dynamics_1_1_editor.html#a1afcfccd5fc94e7accc6f6a914ac0816">human::HumanDynamics::Editor</a>
-</li>
 <li>get_jointVelocity()
 : <a class="el" href="classjoint_data_1_1_editor.html#a926edff1ba7aba2766325b5b14c835f3">jointData::Editor</a>
 </li>
 <li>get_jointVelocity_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#ad1204b532cc870a20fab4986c4a12f4d">jointData::Editor</a>
-</li>
-<li>get_linkName()
-: <a class="el" href="classhuman_1_1_link_dynamics_estimation_1_1_editor.html#ae94d40084b47c5830325d62c4502f188">human::LinkDynamicsEstimation::Editor</a>
-</li>
-<li>get_linkVariables()
-: <a class="el" href="classhuman_1_1_human_dynamics_1_1_editor.html#abc073f7935885216a4b00367b00c0465">human::HumanDynamics::Editor</a>
-</li>
-<li>get_magnetometer()
-: <a class="el" href="classxsens_1_1_xsens_sensor_data_1_1_editor.html#ab57f9f2353fc1604cf5107b09a2a694e">xsens::XsensSensorData::Editor</a>
 </li>
 <li>get_motorAcceleration()
 : <a class="el" href="classjoint_data_1_1_editor.html#a66cacd07dcf406dabb31e58d13112ea1">jointData::Editor</a>
@@ -274,16 +207,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>get_motorVelocity_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#a6b5b6e920609db84d091ed7fce7cfa4d">jointData::Editor</a>
 </li>
-<li>get_netWrench()
-: <a class="el" href="classhuman_1_1_link_dynamics_estimation_1_1_editor.html#a2437c9de1e65d75569c9e7622a75b490">human::LinkDynamicsEstimation::Editor</a>
-</li>
 <li>get_nlp_info()
 : <a class="el" href="class_inverse_kinematics_i_p_o_p_t.html#a4046160642e8d85f9c860278447dae2c">InverseKinematicsIPOPT</a>
 , <a class="el" href="class_inverse_kinematics_v2_i_p_o_p_t.html#a9b04b2dec00b594751bf0e19dc6191df">InverseKinematicsV2IPOPT</a>
-</li>
-<li>get_orientation()
-: <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#a99a412455c763daf0a1f969bb1691ad0">xsens::XsensSegmentData::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_sensor_data_1_1_editor.html#aae01c14a7bd20e4cba1e5d5b227e201b">xsens::XsensSensorData::Editor</a>
 </li>
 <li>get_pidOutput()
 : <a class="el" href="classjoint_data_1_1_editor.html#ae365c463e02fcc86c1d2c16678460b0a">jointData::Editor</a>
@@ -291,69 +217,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>get_pidOutput_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#a03e5b6ea451267d2e9229e4e547aaea7">jointData::Editor</a>
 </li>
-<li>get_position()
-: <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#ad9f10ca04a9d8943306e2006f8d85eca">xsens::XsensSegmentData::Editor</a>
-</li>
-<li>get_positions()
-: <a class="el" href="classhuman_1_1_human_state_1_1_editor.html#a5c8ae8794a155609248e7c53272c14bd">human::HumanState::Editor</a>
-</li>
-<li>get_segmentsData()
-: <a class="el" href="classxsens_1_1_xsens_segments_frame_1_1_editor.html#ad662f1546c474aca3cfc7afbb414f564">xsens::XsensSegmentsFrame::Editor</a>
-</li>
-<li>get_sensorsData()
-: <a class="el" href="classxsens_1_1_xsens_sensors_frame_1_1_editor.html#a00c0f84a259e3ae47ef8506fe09e718d">xsens::XsensSensorsFrame::Editor</a>
-</li>
-<li>get_spatialAcceleration()
-: <a class="el" href="classhuman_1_1_link_dynamics_estimation_1_1_editor.html#a53d35dab50eb451451cac3ad8b23968a">human::LinkDynamicsEstimation::Editor</a>
-</li>
 <li>get_starting_point()
 : <a class="el" href="class_inverse_kinematics_i_p_o_p_t.html#a4ffda6310ef1a555ffe79cad7bb84d2f">InverseKinematicsIPOPT</a>
 , <a class="el" href="class_inverse_kinematics_v2_i_p_o_p_t.html#aec8f053982a3ec03e2ee17feebae1217">InverseKinematicsV2IPOPT</a>
 </li>
-<li>get_status()
-: <a class="el" href="classxsens_1_1_xsens_segments_frame_1_1_editor.html#a3119eb0fc525a39f57154c2dee7a6625">xsens::XsensSegmentsFrame::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_sensors_frame_1_1_editor.html#a22ac571b9a999526bfe7b0f31ec28b1d">xsens::XsensSensorsFrame::Editor</a>
-</li>
 <li>get_torque()
-: <a class="el" href="classhuman_1_1_joint_dynamics_estimation_1_1_editor.html#ab36873615c9a92b374755d103548f350">human::JointDynamicsEstimation::Editor</a>
-, <a class="el" href="classjoint_data_1_1_editor.html#a166612fafcacce07f22291d8210bcc64">jointData::Editor</a>
+: <a class="el" href="classjoint_data_1_1_editor.html#a166612fafcacce07f22291d8210bcc64">jointData::Editor</a>
 </li>
 <li>get_torque_isValid()
 : <a class="el" href="classjoint_data_1_1_editor.html#aade6e6b8fc09afd31925eeaecc9aafef">jointData::Editor</a>
-</li>
-<li>get_transmittedWrench()
-: <a class="el" href="classhuman_1_1_joint_dynamics_estimation_1_1_editor.html#afc49c70e0825af02a48b66f860e5f59a">human::JointDynamicsEstimation::Editor</a>
-</li>
-<li>get_ux()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#af8c21c6daba835eb12d124c762652ad7">human::Force6D::Editor</a>
-</li>
-<li>get_uy()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#ab75f09ec187376b4ee4be90375ab8823">human::Force6D::Editor</a>
-</li>
-<li>get_uz()
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#ab6367966caad636833d1fe44e9908c56">human::Force6D::Editor</a>
-</li>
-<li>get_velocities()
-: <a class="el" href="classhuman_1_1_human_state_1_1_editor.html#ac1ded04691622c835c42ea4ef14d6d98">human::HumanState::Editor</a>
-</li>
-<li>get_velocity()
-: <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#a74febf6086c9aa17e2b0c9fdf3f16148">xsens::XsensSegmentData::Editor</a>
-</li>
-<li>get_w()
-: <a class="el" href="classhuman_1_1_quaternion_1_1_editor.html#a6f59d95961aa76ea7dac794c216f5d3a">human::Quaternion::Editor</a>
-, <a class="el" href="classxsens_1_1_quaternion_1_1_editor.html#afcc316ccf17ffb4ad21bab52fa670d39">xsens::Quaternion::Editor</a>
-</li>
-<li>get_x()
-: <a class="el" href="classhuman_1_1_vector3_1_1_editor.html#ad6a5f950df4127e92b20ee82fab0eaa8">human::Vector3::Editor</a>
-, <a class="el" href="classxsens_1_1_vector3_1_1_editor.html#a88b021d4c060124dc80bca3a5900f0ab">xsens::Vector3::Editor</a>
-</li>
-<li>get_y()
-: <a class="el" href="classhuman_1_1_vector3_1_1_editor.html#a08247f452e7b9c6064740eee8d4e03d8">human::Vector3::Editor</a>
-, <a class="el" href="classxsens_1_1_vector3_1_1_editor.html#ae6c16f937c7015db5e961c621f3683a2">xsens::Vector3::Editor</a>
-</li>
-<li>get_z()
-: <a class="el" href="classhuman_1_1_vector3_1_1_editor.html#ad157eccfd28a140633530092f67c4b92">human::Vector3::Editor</a>
-, <a class="el" href="classxsens_1_1_vector3_1_1_editor.html#afef424d06a86a458aa7826974405d546">xsens::Vector3::Editor</a>
 </li>
 <li>getAxes()
 : <a class="el" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a09f9f90a74cf1e0838c97e87a9550a42">yarp::dev::ReadOnlyControlBoardRemapper</a>
@@ -448,7 +320,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>getPeriod()
 : <a class="el" href="classhuman_1_1_human_state_provider.html#aec643bd69fd1821b6761c82cb0054cc6">human::HumanStateProvider</a>
 , <a class="el" href="class_human_dynamics_estimator.html#a5ad3c161d234d64ab5e034ff0f3e7fb5">HumanDynamicsEstimator</a>
-, <a class="el" href="class_human_forces_provider.html#ab1961436c81e5ad5527d00ba840bd1cb">HumanForcesProvider</a>
+, <a class="el" href="class_human_effort_bridge.html#a12c610cd899de61a20b8918314b58427">HumanEffortBridge</a>
+, <a class="el" href="class_human_forces_provider.html#a833414b14c7eb2911889d925c466dbd7">HumanForcesProvider</a>
+, <a class="el" href="class_human_robot_pose.html#a09bca6d2af654dd560f22aaa408cf1d0">HumanRobotPose</a>
 , <a class="el" href="class_human_t_f_bridge.html#aab9522aad1ae8c8ed5da1ce27d876629">HumanTFBridge</a>
 , <a class="el" href="class_robot_base_pose_publisher.html#a9d7b5c6dc5b182673842d2d50c9484f7">RobotBasePosePublisher</a>
 , <a class="el" href="classxsens_joint_state_publisher_module.html#a7e3c2faecb1783de3541308a053035b1">xsensJointStatePublisherModule</a>
@@ -471,59 +345,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>getTransformer()
 : <a class="el" href="classhuman_1_1_abstract_force_reader.html#a1406c6db77af7c07f8e4728feabf1d71">human::AbstractForceReader</a>
 </li>
-<li>getType()
-: <a class="el" href="classgeometry__msgs___quaternion.html#ad96165fd75c14f574f4e9fd91044cd8a">geometry_msgs_Quaternion</a>
-, <a class="el" href="classgeometry__msgs___transform.html#ab40b572594909cc5a59cfa4b98e5ffd9">geometry_msgs_Transform</a>
-, <a class="el" href="classgeometry__msgs___transform_stamped.html#a5a1673407ab8c94d2ed2b62d2b60ada7">geometry_msgs_TransformStamped</a>
-, <a class="el" href="classgeometry__msgs___vector3.html#a735c2ee48cf0da506c17471da0d69203">geometry_msgs_Vector3</a>
-, <a class="el" href="classgeometry__msgs___wrench.html#a4b314ed9b93c72aed4cf4fd6aaed5c7b">geometry_msgs_Wrench</a>
-, <a class="el" href="classgeometry__msgs___wrench_stamped.html#aad65296ab9a0d8068862caa840dba3f8">geometry_msgs_WrenchStamped</a>
-, <a class="el" href="classmsgs___string.html#a0c34cc4fb2cf15133ec1db3fb46f86e8">msgs_String</a>
-, <a class="el" href="classsensor__msgs___joint_state.html#a04927006d722642b354e363bb1fe86f7">sensor_msgs_JointState</a>
-, <a class="el" href="classsensor__msgs___temperature.html#a127b0e06967a742c01a5421e8ef345c8">sensor_msgs_Temperature</a>
-, <a class="el" href="classstd__msgs___header.html#ad752ac209c8615d71e728c3f21c399a7">std_msgs_Header</a>
-, <a class="el" href="classtf2__msgs___t_f_message.html#a0847f5c08bef701ec1e6b76d59ae107a">tf2_msgs_TFMessage</a>
-, <a class="el" href="classtf__tf_message.html#aa279b37e0959c02574648910aaf8d842">tf_tfMessage</a>
-, <a class="el" href="class_tick_time.html#add3986536f81fbc4c291d0682ff57823">TickTime</a>
-</li>
-<li>getTypeText()
-: <a class="el" href="classgeometry__msgs___quaternion.html#a313e9e5a30db6cc0db75870da1e6a539">geometry_msgs_Quaternion</a>
-, <a class="el" href="classgeometry__msgs___transform.html#a81b879cd0a7276ff0ff98630e742ee01">geometry_msgs_Transform</a>
-, <a class="el" href="classgeometry__msgs___transform_stamped.html#a1d45a8b1d2716272d1c396a623da9c54">geometry_msgs_TransformStamped</a>
-, <a class="el" href="classgeometry__msgs___vector3.html#a7c5b7a456dfcb71fa9361d25a8c7f832">geometry_msgs_Vector3</a>
-, <a class="el" href="classgeometry__msgs___wrench.html#aa7b33c59709e5532f18748e2d6c793bb">geometry_msgs_Wrench</a>
-, <a class="el" href="classgeometry__msgs___wrench_stamped.html#a87a72aff8f3ec9a6182dab8e3587ef3f">geometry_msgs_WrenchStamped</a>
-, <a class="el" href="classmsgs___string.html#aee2a0b255290e6719e1fa41f742c7174">msgs_String</a>
-, <a class="el" href="classsensor__msgs___joint_state.html#a0a70d1d37bbdf50b2cbbd6b4c7b21491">sensor_msgs_JointState</a>
-, <a class="el" href="classsensor__msgs___temperature.html#a5fec2697eacbb2a22c36631737d408d3">sensor_msgs_Temperature</a>
-, <a class="el" href="classstd__msgs___header.html#a8c26eaf98f830d451294e0377ec31106">std_msgs_Header</a>
-, <a class="el" href="classtf2__msgs___t_f_message.html#a115fafbe91a770148dbf768e1a96652f">tf2_msgs_TFMessage</a>
-, <a class="el" href="classtf__tf_message.html#a4dd7f3f69e2d5e6960931aa28fe67787">tf_tfMessage</a>
-, <a class="el" href="class_tick_time.html#acbd82dedf7827ba8522b82d242071490">TickTime</a>
-</li>
 <li>gradient
 : <a class="el" href="class_inverse_kinematics_i_p_o_p_t.html#a4603695e4ba2d109085360ae66e7e7e6">InverseKinematicsIPOPT</a>
+</li>
+<li>gravity
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a83dd37b174bb529d2f401b4909467c7c">HumanRobotPose::impl</a>
+</li>
+<li>gravityRaw
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a4d2483104ad669bd5452e1b4f6f6bb68">HumanRobotPose::impl</a>
 </li>
 <li>ground_H_humanFrame
 : <a class="el" href="class_robot_base_pose_publisher.html#a2b5d87f80b38f09b9ce7ac61ef5c09eb">RobotBasePosePublisher</a>
 </li>
 <li>group
-: <a class="el" href="classhuman_1_1_force6_d_1_1_editor.html#afbb5adc1807138f95fc37135740a81b5">human::Force6D::Editor</a>
-, <a class="el" href="classhuman_1_1_human_dynamics_1_1_editor.html#aa4675e73e13096d20f8c67f0edbf7b23">human::HumanDynamics::Editor</a>
-, <a class="el" href="classhuman_1_1_human_forces_1_1_editor.html#a1e5378fab0cc4e0c29d32ddddb0cd96c">human::HumanForces::Editor</a>
-, <a class="el" href="classhuman_1_1_human_state_1_1_editor.html#a08cee4996a55ffdc5c0b35866f65337b">human::HumanState::Editor</a>
-, <a class="el" href="classhuman_1_1_joint_dynamics_estimation_1_1_editor.html#a9b40c00941df79c02aee99f523132711">human::JointDynamicsEstimation::Editor</a>
-, <a class="el" href="classhuman_1_1_link_dynamics_estimation_1_1_editor.html#a69b8a832fef2d44a4ac91feb1f3fbcf7">human::LinkDynamicsEstimation::Editor</a>
-, <a class="el" href="classhuman_1_1_quaternion_1_1_editor.html#a1654290da079a94bcfbf1ac475f8c8e4">human::Quaternion::Editor</a>
-, <a class="el" href="classhuman_1_1_vector3_1_1_editor.html#a969e41c0a8bc18affa6de1e9b86e4fd6">human::Vector3::Editor</a>
-, <a class="el" href="classjoint_data_1_1_editor.html#acf6d46a5fb2efd68a10d424ffb492bba">jointData::Editor</a>
-, <a class="el" href="classxsens_1_1_frame_referece_1_1_editor.html#ad99e8128f52e380441d42ad7d3bd9eb8">xsens::FrameReferece::Editor</a>
-, <a class="el" href="classxsens_1_1_quaternion_1_1_editor.html#a2ad6f04eddfad7c0f618bfe7d582269a">xsens::Quaternion::Editor</a>
-, <a class="el" href="classxsens_1_1_vector3_1_1_editor.html#a7fb1bc4ecc3074e7bf77cf3fb4ad4934">xsens::Vector3::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_segment_data_1_1_editor.html#a0d4567ab07b1bee9b8cd7934d405acbd">xsens::XsensSegmentData::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_segments_frame_1_1_editor.html#a5291efd8ba807d4d985f4081498132e3">xsens::XsensSegmentsFrame::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_sensor_data_1_1_editor.html#a02f298449532eaeaa82c7b4ffc46b9aa">xsens::XsensSensorData::Editor</a>
-, <a class="el" href="classxsens_1_1_xsens_sensors_frame_1_1_editor.html#aabc85a60abb579c2859b474bba05b7e4">xsens::XsensSensorsFrame::Editor</a>
+: <a class="el" href="classjoint_data_1_1_editor.html#acf6d46a5fb2efd68a10d424ffb492bba">jointData::Editor</a>
 </li>
 <li>guess
 : <a class="el" href="class_inverse_kinematics_i_p_o_p_t.html#a004ddde55cc2f54a2028f5637ecaa192">InverseKinematicsIPOPT</a>
@@ -531,11 +366,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

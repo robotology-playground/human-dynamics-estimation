@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: Class Members - Variables</title>
+<title>HumanDynamicsEstimation: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,9 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -102,11 +108,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_vars_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_vars_x.html#index_x"><span>x</span></a></li>
-      <li><a href="functions_vars_y.html#index_y"><span>y</span></a></li>
-      <li><a href="functions_vars_z.html#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_vars_h.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -125,38 +143,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 &#160;
 
 <h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>handlerPort
+: <a class="el" href="class_human_robot_pose_1_1impl.html#ae76e7e4f9f67132c1c7a0ab4f72400a9">HumanRobotPose::impl</a>
+</li>
+<li>handlerPortName
+: <a class="el" href="class_human_robot_pose_1_1impl.html#af6bd569740fd0d18761e2293e20710fa">HumanRobotPose::impl</a>
+</li>
 <li>hasRobotFrame
 : <a class="el" href="classxsens_joint_state_publisher_module.html#a1f663b53db6e9a3fecc393ae08d97837">xsensJointStatePublisherModule</a>
-</li>
-<li>header
-: <a class="el" href="classgeometry__msgs___transform_stamped.html#ab7131b9e5c06640f4ff7f026ca464565">geometry_msgs_TransformStamped</a>
-, <a class="el" href="classgeometry__msgs___wrench_stamped.html#ac1de88846bcc4292c17bfadd34a7fa70">geometry_msgs_WrenchStamped</a>
-, <a class="el" href="classsensor__msgs___joint_state.html#aea6f59e1829db971a270ffa6d44d9a61">sensor_msgs_JointState</a>
-, <a class="el" href="classsensor__msgs___temperature.html#a9a56c6de418939175ad2eee2e9353fa1">sensor_msgs_Temperature</a>
 </li>
 <li>hessian
 : <a class="el" href="class_inverse_kinematics_i_p_o_p_t.html#aafe818bc53b452f79b2fbda246898a68">InverseKinematicsIPOPT</a>
 </li>
-<li>humanDynamicsDataPort
-: <a class="el" href="classxsens_joint_state_publisher_module.html#aeb1a3a3758092c1a6667d93a78e64ac3">xsensJointStatePublisherModule</a>
+<li>humanBase_H_humanFrame_forRobotPose
+: <a class="el" href="class_human_robot_pose_1_1impl.html#aba405eaae1da4b6763579872e3dddd1d">HumanRobotPose::impl</a>
+</li>
+<li>humanFrame_H_robotFrame
+: <a class="el" href="class_human_robot_pose_1_1impl.html#ad96cfee49e24cd0db33b255cb259fc80">HumanRobotPose::impl</a>
 </li>
 <li>humanFrame_H_robotKinematicFrame
 : <a class="el" href="class_robot_base_pose_publisher.html#a8c28b87488c5fea5c9a0d5bdbf33152f">RobotBasePosePublisher</a>
 </li>
+<li>humanJointsPosition
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a61741d3f8a93bf92e8faee81d5ac7c29">HumanRobotPose::impl</a>
+</li>
+<li>humanJointStateROS
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a0bf49433057b6cc8478987f330093c5a">HumanRobotPose::impl</a>
+</li>
+<li>humanJointsVelocity
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a0e024772935e9479b44e9e046032c79b">HumanRobotPose::impl</a>
+</li>
+<li>humanKinDynComp
+: <a class="el" href="class_human_robot_pose_1_1impl.html#abda5718a950f83881565126dbf700545">HumanRobotPose::impl</a>
+</li>
 <li>humanPelvisWRTGround
 : <a class="el" href="classxsens_joint_state_publisher_module.html#a04e185f2bda330e48b8b369671e680fb">xsensJointStatePublisherModule</a>
+</li>
+<li>humanStateData
+: <a class="el" href="class_human_robot_pose_1_1impl.html#ad1c2274bd71d7964274886bec97fe188">HumanRobotPose::impl</a>
 </li>
 <li>humanStateDataPort
 : <a class="el" href="class_robot_base_pose_publisher.html#afb316c4ea27226b878eb2e694d59186f">RobotBasePosePublisher</a>
 , <a class="el" href="classxsens_joint_state_publisher_module.html#a3c554f7045eab0bc30278f36a77eacb7">xsensJointStatePublisherModule</a>
 </li>
+<li>humanStatePort
+: <a class="el" href="class_human_robot_pose_1_1impl.html#a9125e4925d991c3162ab2e5b4b1b4a5c">HumanRobotPose::impl</a>
+</li>
+<li>humanStateRemotePort
+: <a class="el" href="class_human_robot_pose_1_1impl.html#ac54998e07ed95dd8d4fe601f3fb1f9fb">HumanRobotPose::impl</a>
+</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

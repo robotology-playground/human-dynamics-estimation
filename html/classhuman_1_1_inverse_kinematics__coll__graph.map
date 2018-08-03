@@ -1,3 +1,0 @@
-<map id="human::InverseKinematics" name="human::InverseKinematics">
-<area shape="rect" id="node2" href="$classhuman_1_1_inverse_kinematics_1_1_inverse_kinematics_private.html" title="{human::InverseKinematics\l::InverseKinematicsPrivate\n||+ InverseKinematicsPrivate()\l+ update()\l+ getReducedModel()\l+ getFrameIndeces()\l+ removeUnsupportedJoints()\l+ autoSelectJointsFromTraversal()\l}" alt="" coords="429,192,651,357"/>
-</map>

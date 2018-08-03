@@ -1,8 +1,3 @@
 <map id="yarp::dev::ReadOnlyControlBoardRemapper" name="yarp::dev::ReadOnlyControlBoardRemapper">
-<area shape="rect" id="node7" href="$classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html" title="{yarp::dev::ReadOnlyRemote\lControlBoardRemapper\n|&#45; m_remoteControlBoardDevices\l|+ ReadOnlyRemoteControlBoard\lRemapper()\l+ ~ReadOnlyRemoteControlBoard\lRemapper()\l+ open()\l+ open()\l+ close()\l&#45; closeAllRemoteControlBoards()\l}" alt="" coords="247,667,469,861"/>
-<area shape="rect" id="node2" href="$classyarp_1_1dev_1_1_device_driver.html" title="{DeviceDriver\n||}" alt="" coords="5,5,104,83"/>
-<area shape="rect" id="node3" href="$classyarp_1_1dev_1_1_i_encoders_timed.html" title="{IEncodersTimed\n||}" alt="" coords="128,5,244,83"/>
-<area shape="rect" id="node4" href="$classyarp_1_1dev_1_1_i_precisely_timed.html" title="{yarp::dev::IPreciselyTimed\n||}" alt="" coords="269,5,448,83"/>
-<area shape="rect" id="node5" href="$classyarp_1_1dev_1_1_i_axis_info.html" title="{IAxisInfo\n||}" alt="" coords="472,5,545,83"/>
-<area shape="rect" id="node6" href="$classyarp_1_1dev_1_1_i_multiple_wrapper.html" title="{yarp::dev::IMultipleWrapper\n||}" alt="" coords="571,5,753,83"/>
+<area shape="rect" id="node7" href="$classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html" title="yarp::dev::ReadOnlyRemote\lControlBoardRemapper" alt="" coords="470,99,658,141"/>
 </map>

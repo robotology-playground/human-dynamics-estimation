@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: yarp::dev::ReadOnlyRemoteControlBoardRemapper Class Reference</title>
+<title>HumanDynamicsEstimation: yarp::dev::ReadOnlyRemoteControlBoardRemapper Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,11 +69,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespaceyarp.html">yarp</a></li><li class="navelem"><a class="el" href="namespaceyarp_1_1dev.html">dev</a></li><li class="navelem"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html">ReadOnlyRemoteControlBoardRemapper</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -100,16 +116,76 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for yarp::dev::ReadOnlyRemoteControlBoardRemapper:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper__inherit__graph.svg" width="664" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-<div class="dynheader">
-Collaboration diagram for yarp::dev::ReadOnlyRemoteControlBoardRemapper:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<table class="memberdecls">
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h1><a class="anchor" id="ReadOnlyRemoteControlBoardRemapper"></a>
+ReadOnlyRemoteControlBoardRemapper</h1>
+<p>A device that takes a list of axes from multiple controlboards, a list of remote controlboards in which this axes are located, that is opening all the remote controlboards but is exposing them</p>
+<p>Parameters required by this device are: </p>
+<table class="doxtable">
+<tr>
+<th align="center">Parameter name </th><th align="center">SubParameter </th><th align="center">Type </th><th align="center">Units </th><th align="center">Default Value </th><th align="center">Required </th><th align="center">Description </th><th align="center">Notes  </th></tr>
+<tr>
+<td align="center">axesNames </td><td align="center">- </td><td align="center">vector of strings </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Ordered list of the axes that are part of the remapped device. </td><td align="center"></td></tr>
+<tr>
+<td align="center">remoteControlBoards </td><td align="center">- </td><td align="center">vector of strings </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">List of remote prefix used by the readonly remote controlboards. </td><td align="center">The element of this list are then passed as "remote" parameter to the <a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board.html" title="Readonly version of the remote control board. ">ReadOnlyRemoteControlBoard</a> device. </td></tr>
+<tr>
+<td align="center">localPortPrefix </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">All ports opened by this device will start with this prefix </td><td align="center"></td></tr>
+<tr>
+<td align="center">REMOTE_CONTROLBOARD_OPTIONS </td><td align="center">- </td><td align="center">group </td><td align="center">- </td><td align="center">- </td><td align="center">No </td><td align="center">Options that will be passed directly to the readonlyremotecontrolboard devices </td><td align="center"></td></tr>
+<tr>
+<td align="center">REMOTE_CONTROLBOARD_OPTIONS_{CONTROLBOARD_NAME} </td><td align="center">- </td><td align="center">group </td><td align="center">- </td><td align="center">- </td><td align="center">No </td><td align="center">Options that will be passed directly only to the readonlyremotecontrolboard device identified by {CONTROLBOARD_NAME} </td><td align="center"></td></tr>
+</table>
+<p>All the passed readonly remote controlboards are opened, and then the axesNames and the opened device are passed to the <a class="el" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html">ReadOnlyControlBoardRemapper</a> device. If different axes in two attached controlboard have the same name, the behaviour of this device is undefined.</p>
+<p>Configuration file using .ini format.</p>
+<div class="fragment"><div class="line"> device readonlyremotecontrolboardremapper</div>
+<div class="line"> <a class="code" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a713dd86d65d6fc6f1c948a3515e26141">axesNames</a> (torso_pitch torso_roll torso_yaw neck_pitch neck_roll neck_yaw)</div>
+<div class="line"> remoteControlBoards (/icub/torso /icub/head)</div>
+<div class="line"></div>
+<div class="line"> [REMOTE_CONTROLBOARD_OPTIONS]</div>
+<div class="line"> writeStrict on</div>
+<div class="line"></div>
+<div class="line"> [REMOTE_CONTROLBOARD_OPTIONS_/icub/torso]</div>
+<div class="line"> axesDescription ((torso_yaw, atrv) (torso_roll, atrv) (torso_pitch, atrv))</div>
+<div class="line">...</div>
+</div><!-- fragment --><p>Configuration of the device from C++ code. </p>
+<div class="fragment"><div class="line">Property options;</div>
+<div class="line">options.put(<span class="stringliteral">&quot;device&quot;</span>,<span class="stringliteral">&quot;readonlyremotecontrolboardremapper&quot;</span>);</div>
+<div class="line">Bottle <a class="code" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a713dd86d65d6fc6f1c948a3515e26141">axesNames</a>;</div>
+<div class="line">Bottle &amp; axesList = axesNames.addList();</div>
+<div class="line">axesList.addString(<span class="stringliteral">&quot;torso_pitch&quot;</span>);</div>
+<div class="line">axesList.addString(<span class="stringliteral">&quot;torso_roll&quot;</span>);</div>
+<div class="line">axesList.addString(<span class="stringliteral">&quot;torso_yaw&quot;</span>);</div>
+<div class="line">axesList.addString(<span class="stringliteral">&quot;neck_pitch&quot;</span>);</div>
+<div class="line">axesList.addString(<span class="stringliteral">&quot;neck_roll&quot;</span>);</div>
+<div class="line">axesList.addString(<span class="stringliteral">&quot;neck_yaw&quot;</span>);</div>
+<div class="line">options.put(<span class="stringliteral">&quot;axesNames&quot;</span>,axesNames.get(0))</div>
+<div class="line"></div>
+<div class="line">Bottle remoteControlBoards;</div>
+<div class="line">Bottle &amp; remoteControlBoardsList = remoteControlBoards.addList();</div>
+<div class="line">remoteControlBoardsList.addString(<span class="stringliteral">&quot;/icub/torso&quot;</span>);</div>
+<div class="line">remoteControlBoardsList.addString(<span class="stringliteral">&quot;/icub/head&quot;</span>);</div>
+<div class="line">options.put(<span class="stringliteral">&quot;remoteControlBoards&quot;</span>,remoteControlBoards.get(0));</div>
+<div class="line"></div>
+<div class="line">options.put(<span class="stringliteral">&quot;localPortPrefix&quot;</span>,/test<span class="stringliteral">&quot;);</span></div>
+<div class="line"><span class="stringliteral"></span></div>
+<div class="line"><span class="stringliteral">Property &amp; remoteControlBoardsOpts = options.addGroup(&quot;</span>REMOTE_CONTROLBOARD_OPTIONS<span class="stringliteral">&quot;);</span></div>
+<div class="line"><span class="stringliteral">remoteControlBoardsOpts.put(&quot;</span>writeStrict<span class="stringliteral">&quot;,&quot;</span>on<span class="stringliteral">&quot;);</span></div>
+<div class="line"><span class="stringliteral"></span></div>
+<div class="line"><span class="stringliteral">Property &amp; torsoRemoteControlBoardsOpts = options.addGroup(&quot;</span>REMOTE_CONTROLBOARD_OPTIONS_/icub/torso<span class="stringliteral">&quot;);</span></div>
+<div class="line"><span class="stringliteral">// ...</span></div>
+<div class="line"><span class="stringliteral"></span></div>
+<div class="line"><span class="stringliteral">// Actually open the device</span></div>
+<div class="line"><span class="stringliteral">PolyDriver robotDevice(options);</span></div>
+<div class="line"><span class="stringliteral"></span></div>
+<div class="line"><span class="stringliteral">// Use it as  you would use any controlboard device</span></div>
+<div class="line"><span class="stringliteral">// ...</span></div>
+</div><!-- fragment --><h1><a class="anchor" id="Caveat"></a>
+Caveat</h1>
+<dl class="section see"><dt>See Also</dt><dd>RemoteControlBoardRemapper as this devices inherit most of the behaviours but will <a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html#a88973b8da5a099fa73c045fb076e391b">open</a> ReadOnlyRemoteControlBoards instead of RemoteControlBoards </dd></dl>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a46e16f6ef38c16760f968608ea31c8a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html#a46e16f6ef38c16760f968608ea31c8a7">ReadOnlyRemoteControlBoardRemapper</a> ()</td></tr>
@@ -177,75 +253,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8c294889a66167df820f4e272c5162ad"><td class="memItemLeft" align="right" valign="top">std::vector&lt; PolyDriver * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html#a8c294889a66167df820f4e272c5162ad">m_remoteControlBoardDevices</a></td></tr>
 <tr class="separator:a8c294889a66167df820f4e272c5162ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h1><a class="anchor" id="ReadOnlyRemoteControlBoardRemapper"></a>
-ReadOnlyRemoteControlBoardRemapper</h1>
-<p>A device that takes a list of axes from multiple controlboards, a list of remote controlboards in which this axes are located, that is opening all the remote controlboards but is exposing them</p>
-<p>Parameters required by this device are: </p>
-<table class="doxtable">
-<tr>
-<th align="center">Parameter name </th><th align="center">SubParameter </th><th align="center">Type </th><th align="center">Units </th><th align="center">Default Value </th><th align="center">Required </th><th align="center">Description </th><th align="center">Notes  </th></tr>
-<tr>
-<td align="center">axesNames </td><td align="center">- </td><td align="center">vector of strings </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Ordered list of the axes that are part of the remapped device. </td><td align="center"></td></tr>
-<tr>
-<td align="center">remoteControlBoards </td><td align="center">- </td><td align="center">vector of strings </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">List of remote prefix used by the readonly remote controlboards. </td><td align="center">The element of this list are then passed as "remote" parameter to the <a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board.html" title="Readonly version of the remote control board. ">ReadOnlyRemoteControlBoard</a> device. </td></tr>
-<tr>
-<td align="center">localPortPrefix </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">All ports opened by this device will start with this prefix </td><td align="center"></td></tr>
-<tr>
-<td align="center">REMOTE_CONTROLBOARD_OPTIONS </td><td align="center">- </td><td align="center">group </td><td align="center">- </td><td align="center">- </td><td align="center">No </td><td align="center">Options that will be passed directly to the readonlyremotecontrolboard devices </td><td align="center"></td></tr>
-<tr>
-<td align="center">REMOTE_CONTROLBOARD_OPTIONS_{CONTROLBOARD_NAME} </td><td align="center">- </td><td align="center">group </td><td align="center">- </td><td align="center">- </td><td align="center">No </td><td align="center">Options that will be passed directly only to the readonlyremotecontrolboard device identified by {CONTROLBOARD_NAME} </td><td align="center"></td></tr>
-</table>
-<p>All the passed readonly remote controlboards are opened, and then the axesNames and the opened device are passed to the <a class="el" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html">ReadOnlyControlBoardRemapper</a> device. If different axes in two attached controlboard have the same name, the behaviour of this device is undefined.</p>
-<p>Configuration file using .ini format.</p>
-<div class="fragment"><div class="line"> device readonlyremotecontrolboardremapper</div>
-<div class="line"> <a class="code" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a713dd86d65d6fc6f1c948a3515e26141">axesNames</a> (torso_pitch torso_roll torso_yaw neck_pitch neck_roll neck_yaw)</div>
-<div class="line"> remoteControlBoards (/icub/torso /icub/head)</div>
-<div class="line"></div>
-<div class="line"> [REMOTE_CONTROLBOARD_OPTIONS]</div>
-<div class="line"> writeStrict on</div>
-<div class="line"></div>
-<div class="line"> [REMOTE_CONTROLBOARD_OPTIONS_/icub/torso]</div>
-<div class="line"> axesDescription ((torso_yaw, atrv) (torso_roll, atrv) (torso_pitch, atrv))</div>
-<div class="line">...</div>
-</div><!-- fragment --><p>Configuration of the device from C++ code. </p>
-<div class="fragment"><div class="line">Property options;</div>
-<div class="line">options.put(<span class="stringliteral">&quot;device&quot;</span>,<span class="stringliteral">&quot;readonlyremotecontrolboardremapper&quot;</span>);</div>
-<div class="line">Bottle <a class="code" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a713dd86d65d6fc6f1c948a3515e26141">axesNames</a>;</div>
-<div class="line">Bottle &amp; axesList = axesNames.addList();</div>
-<div class="line">axesList.addString(<span class="stringliteral">&quot;torso_pitch&quot;</span>);</div>
-<div class="line">axesList.addString(<span class="stringliteral">&quot;torso_roll&quot;</span>);</div>
-<div class="line">axesList.addString(<span class="stringliteral">&quot;torso_yaw&quot;</span>);</div>
-<div class="line">axesList.addString(<span class="stringliteral">&quot;neck_pitch&quot;</span>);</div>
-<div class="line">axesList.addString(<span class="stringliteral">&quot;neck_roll&quot;</span>);</div>
-<div class="line">axesList.addString(<span class="stringliteral">&quot;neck_yaw&quot;</span>);</div>
-<div class="line">options.put(<span class="stringliteral">&quot;axesNames&quot;</span>,axesNames.get(0))</div>
-<div class="line"></div>
-<div class="line">Bottle remoteControlBoards;</div>
-<div class="line">Bottle &amp; remoteControlBoardsList = remoteControlBoards.addList();</div>
-<div class="line">remoteControlBoardsList.addString(<span class="stringliteral">&quot;/icub/torso&quot;</span>);</div>
-<div class="line">remoteControlBoardsList.addString(<span class="stringliteral">&quot;/icub/head&quot;</span>);</div>
-<div class="line">options.put(<span class="stringliteral">&quot;remoteControlBoards&quot;</span>,remoteControlBoards.get(0));</div>
-<div class="line"></div>
-<div class="line">options.put(<span class="stringliteral">&quot;localPortPrefix&quot;</span>,/test<span class="stringliteral">&quot;);</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">Property &amp; remoteControlBoardsOpts = options.addGroup(&quot;</span>REMOTE_CONTROLBOARD_OPTIONS<span class="stringliteral">&quot;);</span></div>
-<div class="line"><span class="stringliteral">remoteControlBoardsOpts.put(&quot;</span>writeStrict<span class="stringliteral">&quot;,&quot;</span>on<span class="stringliteral">&quot;);</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">Property &amp; torsoRemoteControlBoardsOpts = options.addGroup(&quot;</span>REMOTE_CONTROLBOARD_OPTIONS_/icub/torso<span class="stringliteral">&quot;);</span></div>
-<div class="line"><span class="stringliteral">// ...</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">// Actually open the device</span></div>
-<div class="line"><span class="stringliteral">PolyDriver robotDevice(options);</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">// Use it as  you would use any controlboard device</span></div>
-<div class="line"><span class="stringliteral">// ...</span></div>
-</div><!-- fragment --><h1><a class="anchor" id="Caveat"></a>
-Caveat</h1>
-<dl class="section see"><dt>See Also</dt><dd>RemoteControlBoardRemapper as this devices inherit most of the behaviours but will <a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html#a88973b8da5a099fa73c045fb076e391b">open</a> ReadOnlyRemoteControlBoards instead of RemoteControlBoards </dd></dl>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8h_source.html#l00100">100</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8h_source.html">ReadOnlyRemoteControlBoardRemapper.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a46e16f6ef38c16760f968608ea31c8a7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -259,8 +267,6 @@ Caveat</h1>
       </table>
 </div><div class="memdoc">
 <p>Constructor. </p>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html#l00024">24</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html">ReadOnlyRemoteControlBoardRemapper.cpp</a>.</p>
 
 </div>
 </div>
@@ -284,8 +290,6 @@ Caveat</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html#l00028">28</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html">ReadOnlyRemoteControlBoardRemapper.cpp</a>.</p>
 
 </div>
 </div>
@@ -315,8 +319,6 @@ Caveat</h1>
 
 <p>Reimplemented from <a class="el" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#a0732a20a8e23a294ea05552cc19f8fcd">yarp::dev::ReadOnlyControlBoardRemapper</a>.</p>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html#l00048">48</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html">ReadOnlyRemoteControlBoardRemapper.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="af0e75638f92b01bf6bfc913a57155f36"></a>
@@ -339,8 +341,6 @@ Caveat</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html#l00032">32</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html">ReadOnlyRemoteControlBoardRemapper.cpp</a>.</p>
 
 </div>
 </div>
@@ -368,8 +368,6 @@ Caveat</h1>
 <dl class="section return"><dt>Returns</dt><dd>always false since initialization requires parameters. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classyarp_1_1dev_1_1_read_only_control_board_remapper.html#acdf3455a7fb51ab8ca0c1930ac2bd1a0">yarp::dev::ReadOnlyControlBoardRemapper</a>.</p>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8h_source.html#l00124">124</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8h_source.html">ReadOnlyRemoteControlBoardRemapper.h</a>.</p>
 
 </div>
 </div>
@@ -426,20 +424,22 @@ Caveat</h1>
 </div><div class="memdoc">
 <p>List of remote_controlboard devices opened by the RemoteControlBoardRemapper device. </p>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_remapper_8h_source.html#l00106">106</a> of file <a class="el" href="_read_only_remote_control_board_remapper_8h_source.html">ReadOnlyRemoteControlBoardRemapper.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyControlBoardRemapper/<a class="el" href="_read_only_remote_control_board_remapper_8h_source.html">ReadOnlyRemoteControlBoardRemapper.h</a></li>
-<li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyControlBoardRemapper/<a class="el" href="_read_only_remote_control_board_remapper_8cpp_source.html">ReadOnlyRemoteControlBoardRemapper.cpp</a></li>
+<li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyControlBoardRemapper/<a class="el" href="_read_only_remote_control_board_remapper_8cpp.html">ReadOnlyRemoteControlBoardRemapper.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceyarp.html">yarp</a></li><li class="navelem"><a class="el" href="namespaceyarp_1_1dev.html">dev</a></li><li class="navelem"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board_remapper.html">ReadOnlyRemoteControlBoardRemapper</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

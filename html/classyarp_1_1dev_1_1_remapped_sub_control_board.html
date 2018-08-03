@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: yarp::dev::RemappedSubControlBoard Class Reference</title>
+<title>HumanDynamicsEstimation: yarp::dev::RemappedSubControlBoard Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,11 +69,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classyarp_1_1dev_1_1_remapped_sub_control_board.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespaceyarp.html">yarp</a></li><li class="navelem"><a class="el" href="namespaceyarp_1_1dev.html">dev</a></li><li class="navelem"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html">RemappedSubControlBoard</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -97,12 +113,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for yarp::dev::RemappedSubControlBoard:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_remapped_sub_control_board__coll__graph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +139,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7ed92ab0945a7e55f27e9db77aae6bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afda1cba006ae5ee9acd47ca8f8c9bd36"><td class="memItemLeft" align="right" valign="top">yarp::dev::IVelocityControl2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#afda1cba006ae5ee9acd47ca8f8c9bd36">vel2</a></td></tr>
 <tr class="separator:afda1cba006ae5ee9acd47ca8f8c9bd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e3b919081a0ba3ba80574bcfdf35f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1dev_1_1_i_encoders_timed.html">yarp::dev::IEncodersTimed</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a5e3b919081a0ba3ba80574bcfdf35f22">iJntEnc</a></td></tr>
+<tr class="memitem:a5e3b919081a0ba3ba80574bcfdf35f22"><td class="memItemLeft" align="right" valign="top">yarp::dev::IEncodersTimed *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a5e3b919081a0ba3ba80574bcfdf35f22">iJntEnc</a></td></tr>
 <tr class="separator:a5e3b919081a0ba3ba80574bcfdf35f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69deb3e9c093a285162454135be6fffa"><td class="memItemLeft" align="right" valign="top">yarp::dev::IMotorEncoders *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a69deb3e9c093a285162454135be6fffa">iMotEnc</a></td></tr>
 <tr class="separator:a69deb3e9c093a285162454135be6fffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,7 +153,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a608ebbf9727b696a34d9d5ec7c7faa9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a7d62159a5458ce9414559ac5f616c2"><td class="memItemLeft" align="right" valign="top">yarp::dev::IRemoteCalibrator *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a2a7d62159a5458ce9414559ac5f616c2">remcalib</a></td></tr>
 <tr class="separator:a2a7d62159a5458ce9414559ac5f616c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a577a96a59b89f4736e765352ca7e1b3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1dev_1_1_i_precisely_timed.html">yarp::dev::IPreciselyTimed</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a577a96a59b89f4736e765352ca7e1b3e">iTimed</a></td></tr>
+<tr class="memitem:a577a96a59b89f4736e765352ca7e1b3e"><td class="memItemLeft" align="right" valign="top">yarp::dev::IPreciselyTimed *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a577a96a59b89f4736e765352ca7e1b3e">iTimed</a></td></tr>
 <tr class="separator:a577a96a59b89f4736e765352ca7e1b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fa5dd23726f00b931bdde4f6fab664b"><td class="memItemLeft" align="right" valign="top">yarp::dev::ITorqueControl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a7fa5dd23726f00b931bdde4f6fab664b">iTorque</a></td></tr>
 <tr class="separator:a7fa5dd23726f00b931bdde4f6fab664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +163,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a03ca3f9d7c089b3200e8106707af4d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3490a2251e920d5048040824e1076a8d"><td class="memItemLeft" align="right" valign="top">yarp::dev::IControlMode2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a3490a2251e920d5048040824e1076a8d">iMode2</a></td></tr>
 <tr class="separator:a3490a2251e920d5048040824e1076a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80eeaae94e25dde051547e7b722ffe5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1dev_1_1_i_axis_info.html">yarp::dev::IAxisInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a80eeaae94e25dde051547e7b722ffe5d">info</a></td></tr>
+<tr class="memitem:a80eeaae94e25dde051547e7b722ffe5d"><td class="memItemLeft" align="right" valign="top">yarp::dev::IAxisInfo *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#a80eeaae94e25dde051547e7b722ffe5d">info</a></td></tr>
 <tr class="separator:a80eeaae94e25dde051547e7b722ffe5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf0d7c1694d00ddf6e5418ca18702290"><td class="memItemLeft" align="right" valign="top">yarp::dev::IPositionDirect *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#acf0d7c1694d00ddf6e5418ca18702290">posDir</a></td></tr>
 <tr class="separator:acf0d7c1694d00ddf6e5418ca18702290"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,10 +181,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abfbfb7e94e75d719f89b5fd7c4b7a36f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html#abfbfb7e94e75d719f89b5fd7c4b7a36f">attachedF</a></td></tr>
 <tr class="separator:abfbfb7e94e75d719f89b5fd7c4b7a36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00049">49</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3a0bd9f9ca9cb612f41028cacf47b26e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -187,8 +194,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8cpp_source.html#l00020">20</a> of file <a class="el" href="_control_board_remapper_helpers_8cpp_source.html">ControlBoardRemapperHelpers.cpp</a>.</p>
 
 </div>
 </div>
@@ -217,8 +222,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8cpp_source.html#l00074">74</a> of file <a class="el" href="_control_board_remapper_helpers_8cpp_source.html">ControlBoardRemapperHelpers.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a9aac37f2c50cebf8962cb6414a9f72cc"></a>
@@ -233,8 +236,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8cpp_source.html#l00049">49</a> of file <a class="el" href="_control_board_remapper_helpers_8cpp_source.html">ControlBoardRemapperHelpers.cpp</a>.</p>
 
 </div>
 </div>
@@ -258,8 +259,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00083">83</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -285,8 +284,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00081">81</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -308,8 +305,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00087">87</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a222af96173ed40faed90457652948165"></a>
@@ -321,8 +316,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00060">60</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -344,8 +337,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00088">88</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a3f521720834e8d0f8e8a3a3dc70ecec7"></a>
@@ -357,8 +348,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00062">62</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -372,8 +361,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00063">63</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a016d8ecac90fdb034bd36c63ef17240f"></a>
@@ -385,8 +372,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00052">52</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -400,8 +385,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00067">67</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5ae4ef87cd6df5142d767bed36fd4d62"></a>
@@ -414,8 +397,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00072">72</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5e3b919081a0ba3ba80574bcfdf35f22"></a>
@@ -423,12 +404,10 @@ Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1dev_1_1_i_encoders_timed.html">yarp::dev::IEncodersTimed</a>* yarp::dev::RemappedSubControlBoard::iJntEnc</td>
+          <td class="memname">yarp::dev::IEncodersTimed* yarp::dev::RemappedSubControlBoard::iJntEnc</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00058">58</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -442,8 +421,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00069">69</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a69deb3e9c093a285162454135be6fffa"></a>
@@ -455,8 +432,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00059">59</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -470,8 +445,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00073">73</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a80eeaae94e25dde051547e7b722ffe5d"></a>
@@ -479,12 +452,10 @@ Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1dev_1_1_i_axis_info.html">yarp::dev::IAxisInfo</a>* yarp::dev::RemappedSubControlBoard::info</td>
+          <td class="memname">yarp::dev::IAxisInfo* yarp::dev::RemappedSubControlBoard::info</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00070">70</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -498,8 +469,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00068">68</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a577a96a59b89f4736e765352ca7e1b3e"></a>
@@ -507,12 +476,10 @@ Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1dev_1_1_i_precisely_timed.html">yarp::dev::IPreciselyTimed</a>* yarp::dev::RemappedSubControlBoard::iTimed</td>
+          <td class="memname">yarp::dev::IPreciselyTimed* yarp::dev::RemappedSubControlBoard::iTimed</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00065">65</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -526,8 +493,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00066">66</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="af846b16946793efdb6e33637e2931be9"></a>
@@ -539,8 +504,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00074">74</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -554,8 +517,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00061">61</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a7b8c53f9f4eadc841139e1f67ae9cc1b"></a>
@@ -567,8 +528,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00055">55</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -582,8 +541,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00056">56</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="acf0d7c1694d00ddf6e5418ca18702290"></a>
@@ -595,8 +552,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00071">71</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -610,8 +565,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00064">64</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="adc4c70f54a59322acc4e1376d88477f9"></a>
@@ -623,8 +576,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00054">54</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
 
 </div>
 </div>
@@ -638,20 +589,22 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_control_board_remapper_helpers_8h_source.html#l00057">57</a> of file <a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyControlBoardRemapper/<a class="el" href="_control_board_remapper_helpers_8h_source.html">ControlBoardRemapperHelpers.h</a></li>
-<li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyControlBoardRemapper/<a class="el" href="_control_board_remapper_helpers_8cpp_source.html">ControlBoardRemapperHelpers.cpp</a></li>
+<li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyControlBoardRemapper/<a class="el" href="_control_board_remapper_helpers_8cpp.html">ControlBoardRemapperHelpers.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceyarp.html">yarp</a></li><li class="navelem"><a class="el" href="namespaceyarp_1_1dev.html">dev</a></li><li class="navelem"><a class="el" href="classyarp_1_1dev_1_1_remapped_sub_control_board.html">RemappedSubControlBoard</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

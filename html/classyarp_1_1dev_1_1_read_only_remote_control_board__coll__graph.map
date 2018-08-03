@@ -1,9 +1,0 @@
-<map id="yarp::dev::ReadOnlyRemoteControlBoard" name="yarp::dev::ReadOnlyRemoteControlBoard">
-<area shape="rect" id="node2" href="$classyarp_1_1dev_1_1_i_encoders_timed.html" title="{yarp::dev::IEncodersTimed\n||}" alt="" coords="5,941,184,1019"/>
-<area shape="rect" id="node3" href="$classyarp_1_1dev_1_1_device_driver.html" title="{yarp::dev::DeviceDriver\n||}" alt="" coords="208,941,367,1019"/>
-<area shape="rect" id="node4" href="$classyarp_1_1dev_1_1_i_axis_info.html" title="{yarp::dev::IAxisInfo\n||}" alt="" coords="392,941,527,1019"/>
-<area shape="rect" id="node8" href="$class_state_extended_input_port.html" title="{StateExtendedInputPort\n||+ StateExtendedInputPort()\l+ resetStat()\l+ init()\l+ onRead()\l+ getLastSingle()\l+ getLastSingle()\l+ getLastVector()\l+ getLastVector()\l+ getIterations()\l+ getEstFrequency()\l}" alt="" coords="945,875,1127,1085"/>
-<area shape="rect" id="node9" href="$classyarp_1_1os_1_1_buffered_port.html" title="{yarp::os::BufferedPort\l\&lt; jointData \&gt;\n||}" alt="" coords="961,498,1111,590"/>
-<area shape="rect" id="node11" href="$classjoint_data.html" title="{jointData\n||+ jointData()\l+ jointData()\l+ jointData()\l+ operator=()\l+ read()\l+ read()\l+ write()\l+ write()\l+ toString()\l&#45; write_jointPosition()\l&#45; nested_write_jointPosition()\l&#45; write_jointPosition\l_isValid()\l&#45; nested_write_jointPosition\l_isValid()\l&#45; write_jointVelocity()\l&#45; nested_write_jointVelocity()\l&#45; write_jointVelocity\l_isValid()\l&#45; nested_write_jointVelocity\l_isValid()\l&#45; write_jointAcceleration()\l&#45; nested_write_jointAcceleration()\land 70 more...\l}" alt="" coords="722,337,936,751"/>
-<area shape="rect" id="node12" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="1105,5,1201,83"/>
-</map>

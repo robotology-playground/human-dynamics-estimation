@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: yarp::dev::ReadOnlyRemoteControlBoard Class Reference</title>
+<title>HumanDynamicsEstimation: yarp::dev::ReadOnlyRemoteControlBoard Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,11 +69,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classyarp_1_1dev_1_1_read_only_remote_control_board.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespaceyarp.html">yarp</a></li><li class="navelem"><a class="el" href="namespaceyarp_1_1dev.html">dev</a></li><li class="navelem"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board.html">ReadOnlyRemoteControlBoard</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -102,16 +118,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for yarp::dev::ReadOnlyRemoteControlBoard:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_read_only_remote_control_board__inherit__graph.svg" width="534" height="435"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_read_only_remote_control_board__inherit__graph.svg" width="534" height="128"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-<div class="dynheader">
-Collaboration diagram for yarp::dev::ReadOnlyRemoteControlBoard:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classyarp_1_1dev_1_1_read_only_remote_control_board__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<table class="memberdecls">
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Readonly version of the remote control board. </p>
+<p>It opens only interfaces though for providing data, not for commanding the robot. Information usually obtained though calls to the underlining device are expected to be provided by the configuration parameters</p>
+<p>Parameters required by this device are: </p>
+<table class="doxtable">
+<tr>
+<th align="center">Parameter name </th><th align="center">SubParameter </th><th align="center">Type </th><th align="center">Units </th><th align="center">Default Value </th><th align="center">Required </th><th align="center">Description </th><th align="center">Notes  </th></tr>
+<tr>
+<td align="center">remote </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Prefix of the remote port which this device will connect. The port opened will be "{remote}/stateExt:o" </td><td align="center"></td></tr>
+<tr>
+<td align="center">local </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Prefix of the ports opened by this device </td><td align="center"></td></tr>
+<tr>
+<td align="center">carrier </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">udp </td><td align="center">No </td><td align="center">Protocol to be used during the connection. Default to udp </td><td align="center"></td></tr>
+<tr>
+<td align="center">axesDescription </td><td align="center">- </td><td align="center">vector of pairs of string and vocab </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Description of the axes managed by this control board. Each element is a pair: a string denoting the axis name and a vocab denoting the axis type (rotational, prismatic, etc). </td><td align="center"></td></tr>
+</table>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa61982766ab98b0bd247a356892fa107"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board.html#aa61982766ab98b0bd247a356892fa107">ReadOnlyRemoteControlBoard</a> ()</td></tr>
@@ -170,25 +196,7 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 <tr class="memitem:a898c90f2dbc981f87cceddf2fd96e692"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board.html#a898c90f2dbc981f87cceddf2fd96e692">m_numberOfJoints</a></td></tr>
 <tr class="separator:a898c90f2dbc981f87cceddf2fd96e692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Readonly version of the remote control board. </p>
-<p>It opens only interfaces though for providing data, not for commanding the robot. Information usually obtained though calls to the underlining device are expected to be provided by the configuration parameters</p>
-<p>Parameters required by this device are: </p>
-<table class="doxtable">
-<tr>
-<th align="center">Parameter name </th><th align="center">SubParameter </th><th align="center">Type </th><th align="center">Units </th><th align="center">Default Value </th><th align="center">Required </th><th align="center">Description </th><th align="center">Notes  </th></tr>
-<tr>
-<td align="center">remote </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Prefix of the remote port which this device will connect. The port opened will be "{remote}/stateExt:o" </td><td align="center"></td></tr>
-<tr>
-<td align="center">local </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Prefix of the ports opened by this device </td><td align="center"></td></tr>
-<tr>
-<td align="center">carrier </td><td align="center">- </td><td align="center">string </td><td align="center">- </td><td align="center">udp </td><td align="center">No </td><td align="center">Protocol to be used during the connection. Default to udp </td><td align="center"></td></tr>
-<tr>
-<td align="center">axesDescription </td><td align="center">- </td><td align="center">vector of pairs of string and vocab </td><td align="center">- </td><td align="center">- </td><td align="center">Yes </td><td align="center">Description of the axes managed by this control board. Each element is a pair: a string denoting the axis name and a vocab denoting the axis type (rotational, prismatic, etc). </td><td align="center"></td></tr>
-</table>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8h_source.html#l00042">42</a> of file <a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa61982766ab98b0bd247a356892fa107"></a>
 <div class="memitem">
 <div class="memproto">
@@ -202,8 +210,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
       </table>
 </div><div class="memdoc">
 <p>Constructor. </p>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00057">57</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -228,8 +234,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </table>
 </div><div class="memdoc">
 <p>Destructor. </p>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00063">63</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -257,8 +261,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 <p>Close the device driver and stop the port connections. </p>
 <dl class="section return"><dt>Returns</dt><dd>true/false on success/failure. </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00146">146</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ad4d1bdabb16f6f183c87fc39f96daf73"></a>
@@ -282,8 +284,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00153">153</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -318,8 +318,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00378">378</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -364,8 +362,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false, upon success/failure </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00202">202</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a9ce803dcd80855d3630d7f58da05c153"></a>
@@ -408,8 +404,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00341">341</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a027065af9ed8ef5d0f97b2389d21c795"></a>
@@ -442,8 +436,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if all goes well, false if anything bad happens. </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00362">362</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a23803a55c8e9c8ac87b2e07367dfda0b"></a>
@@ -475,8 +467,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false on success/failure. Failure means encoders have not been received from the server or that they are not being streamed with the expected rate. </dd></dl>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00252">252</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -521,8 +511,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00296">296</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aab6aad391ff5f669f4620e9dc53849bf"></a>
@@ -554,8 +542,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false on success or failure </dd></dl>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00319">319</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -599,8 +585,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false on success/failure </dd></dl>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00274">274</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -651,8 +635,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false, upon success/failure </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00225">225</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="abbcdb20c10f241cfba23852cae283ffe"></a>
@@ -687,8 +669,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00384">384</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a1f7ae59b1c9a1372754da9919bac4583"></a>
@@ -713,8 +693,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </div><div class="memdoc">
 <p>Default open. </p>
 <dl class="section return"><dt>Returns</dt><dd>always true. </dd></dl>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00070">70</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -772,8 +750,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false on success/failure </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00165">165</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ac6c670409759062ecda145a3edf86729"></a>
@@ -798,8 +774,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </div><div class="memdoc">
 <p>Reset encoders. Set the encoders value to zero </p>
 <dl class="section return"><dt>Returns</dt><dd>true/false </dd></dl>
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00173">173</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
 
 </div>
 </div>
@@ -844,8 +818,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false on success/failure </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00183">183</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5bc56e1efa1ad4e4979415b4b68984b9"></a>
@@ -878,8 +850,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true/false </dd></dl>
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8cpp_source.html#l00192">192</a> of file <a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -901,8 +871,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8h_source.html#l00055">55</a> of file <a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a7d045c655600e6312be7d6910644deba"></a>
@@ -922,8 +890,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8h_source.html#l00052">52</a> of file <a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a>.</p>
 
 </div>
 </div>
@@ -945,8 +911,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8h_source.html#l00053">53</a> of file <a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a752f70708ab34f493274081ae5c0a45a"></a>
@@ -966,8 +930,6 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8h_source.html#l00057">57</a> of file <a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a>.</p>
 
 </div>
 </div>
@@ -989,20 +951,22 @@ yarp::dev::JointTypeEnum &gt; &gt;&#160;</td><td class="memItemRight" valign="bo
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_read_only_remote_control_board_8h_source.html#l00059">59</a> of file <a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyRemoteControlBoard/<a class="el" href="_read_only_remote_control_board_8h_source.html">ReadOnlyRemoteControlBoard.h</a></li>
-<li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyRemoteControlBoard/<a class="el" href="_read_only_remote_control_board_8cpp_source.html">ReadOnlyRemoteControlBoard.cpp</a></li>
+<li>/home/travis/build/robotology/human-dynamics-estimation/yarp/ReadOnlyRemoteControlBoard/<a class="el" href="_read_only_remote_control_board_8cpp.html">ReadOnlyRemoteControlBoard.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceyarp.html">yarp</a></li><li class="navelem"><a class="el" href="namespaceyarp_1_1dev.html">dev</a></li><li class="navelem"><a class="el" href="classyarp_1_1dev_1_1_read_only_remote_control_board.html">ReadOnlyRemoteControlBoard</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

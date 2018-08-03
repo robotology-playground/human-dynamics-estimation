@@ -1,4 +1,4 @@
 <map id="human::RobotFrameTransformer" name="human::RobotFrameTransformer">
-<area shape="rect" id="node2" href="$classhuman_1_1_generic_frame_transformer.html" title="Implementation of the FrameTransformer interface for the conversion of the robot forces into human fo..." alt="" coords="5,147,227,327"/>
-<area shape="rect" id="node3" href="$classhuman_1_1_frame_transformer.html" title="Interface for transforming forces into human frames. In general, given two generic frames A and B..." alt="" coords="28,6,204,98"/>
+<area shape="rect" id="node2" href="$classhuman_1_1_generic_frame_transformer.html" title="Implementation of the FrameTransformer interface for the conversion of the robot forces into human fo..." alt="" coords="5,80,227,107"/>
+<area shape="rect" id="node3" href="$classhuman_1_1_frame_transformer.html" title="Interface for transforming forces into human frames. In general, given two generic frames A and B..." alt="" coords="28,5,204,32"/>
 </map>

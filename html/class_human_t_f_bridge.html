@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: HumanTFBridge Class Reference</title>
+<title>HumanDynamicsEstimation: HumanTFBridge Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,11 +69,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_human_t_f_bridge.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,7 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -93,15 +113,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for HumanTFBridge:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_human_t_f_bridge__inherit__graph.svg" width="296" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_human_t_f_bridge__inherit__graph.svg" width="296" height="128"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-<div class="dynheader">
-Collaboration diagram for HumanTFBridge:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_human_t_f_bridge__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -113,30 +127,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a47072abe702993ed7ba54b1ab3e3a1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab54a03476fc9b738d0d67f4850d4d0f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#ab54a03476fc9b738d0d67f4850d4d0f5">close</a> ()</td></tr>
 <tr class="separator:ab54a03476fc9b738d0d67f4850d4d0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b31c1e90a41ff51d4e8d744ab38de9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a80b31c1e90a41ff51d4e8d744ab38de9">onRead</a> (<a class="el" href="classxsens_1_1_xsens_segments_frame.html">XsensSegmentsFrame</a> &amp;xsensData)</td></tr>
+<tr class="memitem:a80b31c1e90a41ff51d4e8d744ab38de9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a80b31c1e90a41ff51d4e8d744ab38de9">onRead</a> (XsensSegmentsFrame &amp;xsensData)</td></tr>
 <tr class="separator:a80b31c1e90a41ff51d4e8d744ab38de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a2a4363939a0057751015dc22d29758a5"><td class="memItemLeft" align="right" valign="top">Port&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a2a4363939a0057751015dc22d29758a5">client_port</a></td></tr>
 <tr class="separator:a2a4363939a0057751015dc22d29758a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb1da98a793411f7e83ef42d78b668f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">BufferedPort</a>&lt; <a class="el" href="classxsens_1_1_xsens_segments_frame.html">XsensSegmentsFrame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#adb1da98a793411f7e83ef42d78b668f8">xsensDataPort</a></td></tr>
+<tr class="memitem:adb1da98a793411f7e83ef42d78b668f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">BufferedPort</a>&lt; XsensSegmentsFrame &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#adb1da98a793411f7e83ef42d78b668f8">xsensDataPort</a></td></tr>
 <tr class="separator:adb1da98a793411f7e83ef42d78b668f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13b6e1f12c229d6e460654a0e9d7c070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classxsens_1_1_xsens_driver_service.html">XsensDriverService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a13b6e1f12c229d6e460654a0e9d7c070">xsensDriver</a></td></tr>
+<tr class="memitem:a13b6e1f12c229d6e460654a0e9d7c070"><td class="memItemLeft" align="right" valign="top">XsensDriverService&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a13b6e1f12c229d6e460654a0e9d7c070">xsensDriver</a></td></tr>
 <tr class="separator:a13b6e1f12c229d6e460654a0e9d7c070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add8c09eddaf192cb5900c5720717c16c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_publisher.html">Publisher</a>&lt; <a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#add8c09eddaf192cb5900c5720717c16c">publisher_tf</a></td></tr>
-<tr class="separator:add8c09eddaf192cb5900c5720717c16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6d978928e2d90f7d0ab07c1cc7efc1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#ac6d978928e2d90f7d0ab07c1cc7efc1c">tf</a></td></tr>
-<tr class="separator:ac6d978928e2d90f7d0ab07c1cc7efc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5741d39543d6e09c3a8cee64a9e9efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyarp_1_1os_1_1_publisher.html">Publisher</a><br class="typebreak"/>
+&lt; yarp::rosmsg::tf2_msgs::TFMessage &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#ab5741d39543d6e09c3a8cee64a9e9efb">publisher_tf</a></td></tr>
+<tr class="separator:ab5741d39543d6e09c3a8cee64a9e9efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e8e997d30848767b567b0eace90a1d"><td class="memItemLeft" align="right" valign="top">yarp::rosmsg::tf2_msgs::TFMessage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a01e8e997d30848767b567b0eace90a1d">tf</a></td></tr>
+<tr class="separator:a01e8e997d30848767b567b0eace90a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba85f6b156e6a09c7418fdf81beaf36"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#a9ba85f6b156e6a09c7418fdf81beaf36">segments</a></td></tr>
 <tr class="separator:a9ba85f6b156e6a09c7418fdf81beaf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad285aa2f029b99d3e5f64abfe36948c"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_human_t_f_bridge.html#aad285aa2f029b99d3e5f64abfe36948c">fakeSegments</a></td></tr>
 <tr class="separator:aad285aa2f029b99d3e5f64abfe36948c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00065">65</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ab54a03476fc9b738d0d67f4850d4d0f5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -157,8 +169,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00195">195</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -184,8 +194,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00088">88</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aab9522aad1ae8c8ed5da1ce27d876629"></a>
@@ -209,8 +217,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00077">77</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a80b31c1e90a41ff51d4e8d744ab38de9"></a>
@@ -223,7 +229,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void HumanTFBridge::onRead </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classxsens_1_1_xsens_segments_frame.html">XsensSegmentsFrame</a> &amp;&#160;</td>
+          <td class="paramtype">XsensSegmentsFrame &amp;&#160;</td>
           <td class="paramname"><em>xsensData</em></td><td>)</td>
           <td></td>
         </tr>
@@ -234,8 +240,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00204">204</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -260,8 +264,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00083">83</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -283,8 +285,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00067">67</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aad285aa2f029b99d3e5f64abfe36948c"></a>
@@ -305,11 +305,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00074">74</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="add8c09eddaf192cb5900c5720717c16c"></a>
+<a class="anchor" id="ab5741d39543d6e09c3a8cee64a9e9efb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -317,7 +315,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_publisher.html">Publisher</a>&lt;<a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a>&gt; HumanTFBridge::publisher_tf</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_publisher.html">Publisher</a>&lt;yarp::rosmsg::tf2_msgs::TFMessage&gt; HumanTFBridge::publisher_tf</td>
         </tr>
       </table>
   </td>
@@ -326,8 +324,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00071">71</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -349,11 +345,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00073">73</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="ac6d978928e2d90f7d0ab07c1cc7efc1c"></a>
+<a class="anchor" id="a01e8e997d30848767b567b0eace90a1d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -361,7 +355,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a> HumanTFBridge::tf</td>
+          <td class="memname">yarp::rosmsg::tf2_msgs::TFMessage HumanTFBridge::tf</td>
         </tr>
       </table>
   </td>
@@ -370,8 +364,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00072">72</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -383,7 +375,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">BufferedPort</a>&lt;<a class="el" href="classxsens_1_1_xsens_segments_frame.html">XsensSegmentsFrame</a>&gt; HumanTFBridge::xsensDataPort</td>
+          <td class="memname"><a class="el" href="classyarp_1_1os_1_1_buffered_port.html">BufferedPort</a>&lt;XsensSegmentsFrame&gt; HumanTFBridge::xsensDataPort</td>
         </tr>
       </table>
   </td>
@@ -392,8 +384,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00068">68</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +395,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classxsens_1_1_xsens_driver_service.html">XsensDriverService</a> HumanTFBridge::xsensDriver</td>
+          <td class="memname">XsensDriverService HumanTFBridge::xsensDriver</td>
         </tr>
       </table>
   </td>
@@ -415,19 +405,21 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_human_t_f_bridge_8cpp_source.html#l00069">69</a> of file <a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/robotology/human-dynamics-estimation/human-viz-bridge/src/<a class="el" href="_human_t_f_bridge_8cpp_source.html">HumanTFBridge.cpp</a></li>
+<li>/home/travis/build/robotology/human-dynamics-estimation/human-viz-bridge/src/<a class="el" href="_human_t_f_bridge_8cpp.html">HumanTFBridge.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_human_t_f_bridge.html">HumanTFBridge</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

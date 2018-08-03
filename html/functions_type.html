@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: Class Members - Typedefs</title>
+<title>HumanDynamicsEstimation: Class Members - Typedefs</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -61,9 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -75,14 +81,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="#index_b"><span>b</span></a></li>
-      <li><a href="#index_r"><span>r</span></a></li>
-      <li class="current"><a href="#index_u"><span>u</span></a></li>
-    </ul>
-  </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_type.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -98,9 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 
 <div class="contents">
-&#160;
-
-<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+&#160;<ul>
 <li>BerdyOutputMap
 : <a class="el" href="class_human_dynamics_estimator.html#a36f5c286d607612428c66ca2497ae404">HumanDynamicsEstimator</a>
 </li>
@@ -110,69 +121,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>BerdySensorsInputMap
 : <a class="el" href="class_human_dynamics_estimator.html#a19b4f648bfa2d42309e4aebc346235f1">HumanDynamicsEstimator</a>
 </li>
-<li>bottleStyle
-: <a class="el" href="classgeometry__msgs___quaternion.html#a945f68d3d8afe422ac255843224dc72c">geometry_msgs_Quaternion</a>
-, <a class="el" href="classgeometry__msgs___transform.html#a35ad87180da1cac6f0f2a76047aeefe5">geometry_msgs_Transform</a>
-, <a class="el" href="classgeometry__msgs___transform_stamped.html#af80ba1a022151ac01bfce8fbac91804e">geometry_msgs_TransformStamped</a>
-, <a class="el" href="classgeometry__msgs___vector3.html#abf3d631be23d28e3494cbbbca9b7e0cb">geometry_msgs_Vector3</a>
-, <a class="el" href="classgeometry__msgs___wrench.html#abaa00a9db2fed6835293fd18c82629d2">geometry_msgs_Wrench</a>
-, <a class="el" href="classgeometry__msgs___wrench_stamped.html#a13f675ee16893a04e8632c51409f8b57">geometry_msgs_WrenchStamped</a>
-, <a class="el" href="classmsgs___string.html#abf86d6f1a7fddbff093507ed4b7cb540">msgs_String</a>
-, <a class="el" href="classsensor__msgs___joint_state.html#af8b228bbfd6979b75f8af36d22305dfe">sensor_msgs_JointState</a>
-, <a class="el" href="classsensor__msgs___temperature.html#a236653558866fe978f7152a0ccf50bdd">sensor_msgs_Temperature</a>
-, <a class="el" href="classstd__msgs___header.html#a0e66a901effab7e3d33cafda1095d350">std_msgs_Header</a>
-, <a class="el" href="classtf2__msgs___t_f_message.html#aac16e059115e686f61f43058db82f0b4">tf2_msgs_TFMessage</a>
-, <a class="el" href="classtf__tf_message.html#a6f48ab166476d8ab797174b7f20bc8f5">tf_tfMessage</a>
-, <a class="el" href="class_tick_time.html#a23360adde42b3857fca3272ec8c01d71">TickTime</a>
+<li>Contact
+: <a class="el" href="class_human_robot_pose_1_1impl.html#aecd3e4803896e9bd8c9958097557b5d7">HumanRobotPose::impl</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>rosStyle
-: <a class="el" href="classgeometry__msgs___quaternion.html#a246ac2f83b45336f8c9feb4f5fdedff2">geometry_msgs_Quaternion</a>
-, <a class="el" href="classgeometry__msgs___transform.html#a29282c2af625da1b7dadfb53a15a3081">geometry_msgs_Transform</a>
-, <a class="el" href="classgeometry__msgs___transform_stamped.html#a7a0da0c5fb4b272aa73ffe51cc3b3f48">geometry_msgs_TransformStamped</a>
-, <a class="el" href="classgeometry__msgs___vector3.html#a10047a307ce78ed156b311b28be006ff">geometry_msgs_Vector3</a>
-, <a class="el" href="classgeometry__msgs___wrench.html#a8fb8c996ae0944b73fe4bfe4fc6866ce">geometry_msgs_Wrench</a>
-, <a class="el" href="classgeometry__msgs___wrench_stamped.html#aa7fbe383be99d9dde05dac54509c8524">geometry_msgs_WrenchStamped</a>
-, <a class="el" href="classmsgs___string.html#ae011a4a5ffc8b97173e7b57462176730">msgs_String</a>
-, <a class="el" href="classsensor__msgs___joint_state.html#ab6e8b3774f81d708c4cd63e48c7f32e1">sensor_msgs_JointState</a>
-, <a class="el" href="classsensor__msgs___temperature.html#a93305dcddbad133d4065b54551744a59">sensor_msgs_Temperature</a>
-, <a class="el" href="classstd__msgs___header.html#a6c54e5151b9dd317c8c072deb75ba817">std_msgs_Header</a>
-, <a class="el" href="classtf2__msgs___t_f_message.html#a8ee7cfef4034361b334eaef054563672">tf2_msgs_TFMessage</a>
-, <a class="el" href="classtf__tf_message.html#a7be8f571f5b18635476f54a2e623de19">tf_tfMessage</a>
-, <a class="el" href="class_tick_time.html#ab855d826fddebc89dcb0a60105b7797e">TickTime</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
 <li>unwrapped
-: <a class="el" href="classhuman_1_1_force6_d.html#aa18b6d951dbe2413d93d34e9c68fc39a">human::Force6D</a>
-, <a class="el" href="classhuman_1_1_human_dynamics.html#a4cb445c520511ef8dcc068e627a8fe9c">human::HumanDynamics</a>
-, <a class="el" href="classhuman_1_1_human_forces.html#a9f4d90bdeb496e9fece08554dd3e1c3e">human::HumanForces</a>
-, <a class="el" href="classhuman_1_1_human_state.html#a70f8edc51421e5819b15fb77aa339fd1">human::HumanState</a>
-, <a class="el" href="classhuman_1_1_joint_dynamics_estimation.html#a6f850cb540fb8597b57e908360fa2d1a">human::JointDynamicsEstimation</a>
-, <a class="el" href="classhuman_1_1_link_dynamics_estimation.html#ade458711a45d4d81e7ed56eff8dae553">human::LinkDynamicsEstimation</a>
-, <a class="el" href="classhuman_1_1_quaternion.html#a79fccdcca99c960785e7f4fcf8b4903a">human::Quaternion</a>
-, <a class="el" href="classhuman_1_1_vector3.html#adae634739455535d4e9c796550868887">human::Vector3</a>
-, <a class="el" href="classjoint_data.html#a3c1f07b104f51c7cba75dc7f7437071a">jointData</a>
-, <a class="el" href="classxsens_1_1_frame_referece.html#a8eb73a6fa4a706e113fcfb30697e51fa">xsens::FrameReferece</a>
-, <a class="el" href="classxsens_1_1_quaternion.html#a9afc1304b9274402d04c7f890ddf692f">xsens::Quaternion</a>
-, <a class="el" href="classxsens_1_1_vector3.html#a3c2e451834e6d25859c4ca408ef250b5">xsens::Vector3</a>
-, <a class="el" href="classxsens_1_1_xsens_segment_data.html#a37c0a2d068cd3b367e0fdd8375747879">xsens::XsensSegmentData</a>
-, <a class="el" href="classxsens_1_1_xsens_segments_frame.html#a2413442fdf0525b43b250943bc8097b0">xsens::XsensSegmentsFrame</a>
-, <a class="el" href="classxsens_1_1_xsens_sensor_data.html#af3faa5d74be9be0966a55bd49f082cca">xsens::XsensSensorData</a>
-, <a class="el" href="classxsens_1_1_xsens_sensors_frame.html#adfbf926826d46b1c51fc82ab6377d42b">xsens::XsensSensorsFrame</a>
+: <a class="el" href="classjoint_data.html#a3c1f07b104f51c7cba75dc7f7437071a">jointData</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

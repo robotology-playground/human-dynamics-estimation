@@ -1,8 +1,0 @@
-<map id="/home/travis/build/robotology/human&#45;dynamics&#45;estimation/build/ros&#45;msgs/_yarp_idl_/msgs/tf_tfMessage.h" name="/home/travis/build/robotology/human&#45;dynamics&#45;estimation/build/ros&#45;msgs/_yarp_idl_/msgs/tf_tfMessage.h">
-<area shape="rect" id="node6" href="$__yarp__idl___2msgs_2_tick_time_8h.html" title="TickTime.h" alt="" coords="781,499,867,525"/>
-<area shape="rect" id="node7" href="$__yarp__idl___2msgs_2std__msgs___header_8h.html" title="std_msgs_Header.h" alt="" coords="485,424,624,451"/>
-<area shape="rect" id="node8" href="$__yarp__idl___2msgs_2geometry__msgs___vector3_8h.html" title="geometry_msgs_Vector3.h" alt="" coords="749,349,928,376"/>
-<area shape="rect" id="node9" href="$__yarp__idl___2msgs_2geometry__msgs___quaternion_8h.html" title="geometry_msgs_Quaternion.h" alt="" coords="557,275,752,301"/>
-<area shape="rect" id="node10" href="$__yarp__idl___2msgs_2geometry__msgs___transform_8h.html" title="geometry_msgs_Transform.h" alt="" coords="685,200,877,227"/>
-<area shape="rect" id="node11" href="$__yarp__idl___2msgs_2geometry__msgs___transform_stamped_8h.html" title="geometry_msgs_TransformStamped.h" alt="" coords="593,125,836,152"/>
-</map>

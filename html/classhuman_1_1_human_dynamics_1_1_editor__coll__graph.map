@@ -1,8 +1,0 @@
-<map id="human::HumanDynamics::Editor" name="human::HumanDynamics::Editor">
-<area shape="rect" id="node2" href="$classyarp_1_1os_1_1_wire.html" title="{yarp::os::Wire\n||}" alt="" coords="5,317,109,395"/>
-<area shape="rect" id="node3" href="$classyarp_1_1os_1_1_port_writer.html" title="{yarp::os::PortWriter\n||}" alt="" coords="133,317,268,395"/>
-<area shape="rect" id="node4" href="$classyarp_1_1os_1_1_wire.html" title="{Wire\n||}" alt="" coords="294,317,343,395"/>
-<area shape="rect" id="node5" href="$classyarp_1_1os_1_1_port_writer.html" title="{PortWriter\n||}" alt="" coords="367,317,448,395"/>
-<area shape="rect" id="node6" href="$classhuman_1_1_human_dynamics.html" title="{human::HumanDynamics\n||+ HumanDynamics()\l+ HumanDynamics()\l+ HumanDynamics()\l+ operator=()\l+ read()\l+ read()\l+ write()\l+ write()\l+ toString()\l+ HumanDynamics()\land 8 more...\l&#45; write_linkVariables()\l&#45; nested_write_linkVariables()\l&#45; write_jointVariables()\l&#45; nested_write_jointVariables()\l&#45; read_linkVariables()\l&#45; nested_read_linkVariables()\l&#45; read_jointVariables()\l&#45; nested_read_jointVariables()\l&#45; write_linkVariables()\l&#45; nested_write_linkVariables()\land 6 more...\l}" alt="" coords="473,163,671,549"/>
-<area shape="rect" id="node7" href="$classyarp_1_1os_1_1idl_1_1_wire_portable.html" title="{WirePortable\n||}" alt="" coords="393,13,489,91"/>
-</map>

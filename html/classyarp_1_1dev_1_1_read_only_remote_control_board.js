@@ -1,0 +1,28 @@
+var classyarp_1_1dev_1_1_read_only_remote_control_board =
+[
+    [ "ReadOnlyRemoteControlBoard", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#aa61982766ab98b0bd247a356892fa107", null ],
+    [ "~ReadOnlyRemoteControlBoard", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a3c6ca0ca30d532b4265ac9e2fe583384", null ],
+    [ "close", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#af2b4600f46ace1c3b7a20610e3fa04c1", null ],
+    [ "getAxes", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#ad4d1bdabb16f6f183c87fc39f96daf73", null ],
+    [ "getAxisName", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a3e5457e735dfa0a6177b422dbc9c0903", null ],
+    [ "getEncoder", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a13113b359c2b491988dc1903ad0560eb", null ],
+    [ "getEncoderAcceleration", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a9ce803dcd80855d3630d7f58da05c153", null ],
+    [ "getEncoderAccelerations", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a027065af9ed8ef5d0f97b2389d21c795", null ],
+    [ "getEncoders", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a23803a55c8e9c8ac87b2e07367dfda0b", null ],
+    [ "getEncoderSpeed", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a1ecaa20d3da8bdabf10c469b143e66e4", null ],
+    [ "getEncoderSpeeds", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#aab6aad391ff5f669f4620e9dc53849bf", null ],
+    [ "getEncodersTimed", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#ae7659a84dd1498b5df5441e794c5acac", null ],
+    [ "getEncoderTimed", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#add5f3e799ffd565b4390e654aba0672a", null ],
+    [ "getJointType", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#abbcdb20c10f241cfba23852cae283ffe", null ],
+    [ "open", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a1f7ae59b1c9a1372754da9919bac4583", null ],
+    [ "open", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a65884b1484b6e1cbb438e0ef75ccd04c", null ],
+    [ "resetEncoder", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a1b060be23c0c5f42fbc8a9d212ee4d5d", null ],
+    [ "resetEncoders", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#ac6c670409759062ecda145a3edf86729", null ],
+    [ "setEncoder", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a2ce2ad7112cafb3f6334a5c84f4e2b5c", null ],
+    [ "setEncoders", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a5bc56e1efa1ad4e4979415b4b68984b9", null ],
+    [ "m_axes", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a560c3f1d51030652d2bd33fb6be4cedc", null ],
+    [ "m_extendedIntputStatePort", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a7d045c655600e6312be7d6910644deba", null ],
+    [ "m_extendedPortMutex", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a14da4cabb05729b63cdd46c37293474b", null ],
+    [ "m_lastStamp", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a752f70708ab34f493274081ae5c0a45a", null ],
+    [ "m_numberOfJoints", "classyarp_1_1dev_1_1_read_only_remote_control_board.html#a898c90f2dbc981f87cceddf2fd96e692", null ]
+];

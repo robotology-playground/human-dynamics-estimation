@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: Tools for interfacing HDE module architecture with ROS RViz.</title>
+<title>HumanDynamicsEstimation: Tools for interfacing HDE module architecture with ROS RViz.</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -58,6 +66,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('md__home_travis_build_robotology_human-dynamics-estimation_human-viz-bridge__r_e_a_d_m_e.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -72,7 +95,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">Tools for interfacing HDE module architecture with ROS RViz. </div>  </div>
@@ -90,23 +112,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><b><a class="el" href="class_human_t_f_bridge.html">HumanTFBridge</a></b> is the module in charge of reading from the Xsens system YARP interface data regarding the position and the orientation in the global reference frame of each human segment and publishing them in the form of ros topic. The workflow is the following:<ul>
 <li>the urdf model of the human is loaded and a publisher to the topic "/tf" is opened;</li>
 <li>since the urdf model we use includes "real" and "fake" segments to deal with joints characterised by more degreees of freedom, a list of the "real" segments is read from the module configuration file and put in a vector; then, comparing the list of all the segments taken from the urdf with the former list also a vector of the "fake" segments is created;</li>
-<li>a class <a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a> compatible with ROS is created containing the coordinate frame transforms for each segment of the urdf model;</li>
-<li>for the fake segments the class is filled with an identity transform since these segments are not visible in RViz while for the real segments is filled with data coming from the Xsens system YARP interface. These transforms are updated by means of a callback on a class BufferedPort &lt; XsensSegmentsFrame &gt; of the Xsens data and then published by means of a Publisher &lt; <a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a> &gt; class. NB: the module period is set to 100 seconds since the data updating is controlled by the callback.</li>
+<li>a class tf2_msgs_TFMessage compatible with ROS is created containing the coordinate frame transforms for each segment of the urdf model;</li>
+<li>for the fake segments the class is filled with an identity transform since these segments are not visible in RViz while for the real segments is filled with data coming from the Xsens system YARP interface. These transforms are updated by means of a callback on a class BufferedPort &lt; XsensSegmentsFrame &gt; of the Xsens data and then published by means of a Publisher &lt; tf2_msgs_TFMessage &gt; class. NB: the module period is set to 100 seconds since the data updating is controlled by the callback.</li>
 </ul>
 </li>
 <li><b>HumanJointStateBridge</b> is the module in charge of reading from the human-state-provider module data regarding the state of the human in the form of joints angles and the transform between the human base link and the global reference frame and publishing them in the form of ros topic. The workflow is the following:<ul>
 <li>the urdf model of the human is loaded and publishers to the topic "/tf" and to the topic "/joint_state" are opened;</li>
 <li>the list of the joints is read both from the module configuration file and from the urdf model and then the two list are compared to check possible mismatches; then, a vector containing all joints is created;</li>
-<li>a class <a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a> compatible with ROS is created containing the transform between the base link and the global reference frame;</li>
+<li>a class tf2_msgs_TFMessage compatible with ROS is created containing the transform between the base link and the global reference frame;</li>
 <li>a class sensor_msgs_jointState compatible with ROS is creted containing the state of each joint of the urdf model;</li>
-<li>these class are filled with data coming from human-state-provider and updated by means of a callback on a class BufferedPort &lt; HumanState &gt; of the human state data and then published by means of a Publisher &lt; <a class="el" href="classtf2__msgs___t_f_message.html">tf2_msgs_TFMessage</a> &gt; class and a Publisher &lt; sensor_msgs_jointState &gt; class. NB: the module period is set to 100 seconds since the data updating is controlled by the callback.</li>
+<li>these class are filled with data coming from human-state-provider and updated by means of a callback on a class BufferedPort &lt; HumanState &gt; of the human state data and then published by means of a Publisher &lt; tf2_msgs_TFMessage &gt; class and a Publisher &lt; sensor_msgs_jointState &gt; class. NB: the module period is set to 100 seconds since the data updating is controlled by the callback.</li>
 </ul>
 </li>
-<li><b>HumanEffortBridge</b> is the module in charge of reading from the human-dynamics-estimator module data regarding the dynamics of the human in the form of joint torques and publishing them in the form of ros topic. The workflow is the following:<ul>
+<li><b><a class="el" href="class_human_effort_bridge.html">HumanEffortBridge</a></b> is the module in charge of reading from the human-dynamics-estimator module data regarding the dynamics of the human in the form of joint torques and publishing them in the form of ros topic. The workflow is the following:<ul>
 <li>the urdf model of the human is loaded and multiple publishers to the topic "/&lt; JointName &gt;" are opened;</li>
 <li>the list of the joints whose efforts the user wants to display and the list of the relative links are read from the module configuration file while the list of all the joints is read from the urdf model;</li>
-<li>multiple classes <a class="el" href="classsensor__msgs___temperature.html">sensor_msgs_Temperature</a> compatible with ROS are created containing all the joints torques the user wants to display;</li>
-<li>these classes are filled with data coming from human-dynamics-estimator and updated by means of a callback on a class BufferedPort &lt; HumanDynamics &gt; of the human dynamics data and then published by means of multiple Publisher &lt; <a class="el" href="classsensor__msgs___temperature.html">sensor_msgs_Temperature</a> &gt; classes. For each "real" joint, the joints torques on each degree of freedom of such "real" joint are summed together. NB: the module period is set to 100 seconds since the data updating is controlled by the callback.</li>
+<li>multiple classes sensor_msgs_Temperature compatible with ROS are created containing all the joints torques the user wants to display;</li>
+<li>these classes are filled with data coming from human-dynamics-estimator and updated by means of a callback on a class BufferedPort &lt; HumanDynamics &gt; of the human dynamics data and then published by means of multiple Publisher &lt; sensor_msgs_Temperature &gt; classes. For each "real" joint, the joints torques on each degree of freedom of such "real" joint are summed together. NB: the module period is set to 100 seconds since the data updating is controlled by the callback.</li>
 </ul>
 </li>
 <li><b><a class="el" href="class_robot_base_pose_publisher.html">RobotBasePosePublisher</a></b> is the module in charge of reading the human-state-provider data regarding the transform between the human base link and the global reference frame and the robot state, and then, publishing the transform between the robot base link and the global reference frame on their basis. The workflow is the following:<ul>
@@ -122,18 +144,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <ul>
 <li>Make sure you have ROS installed on your computer.</li>
 <li>if you do not have a workspace for catkin, create one following the <a href="http://wiki.ros.org/catkin/Tutorials/create_a_workspace">tutorial</a> in ros documentation;</li>
-<li>[on Terminal 1] move to the src folder in the catkin workspace you have created and create a ros package with the following dependencies: ``` catkin_create_pkg &lt;package_name&gt; catkin roscpp rospy message_generation <a class="el" href="namespacestd__msgs.html">std_msgs</a> <a class="el" href="namespacegeometry__msgs.html">geometry_msgs</a> <a class="el" href="namespacesensor__msgs.html">sensor_msgs</a> tf urdf ```</li>
+<li>[on Terminal 1] move to the src folder in the catkin workspace you have created and create a ros package with the following dependencies: ``` catkin_create_pkg &lt;package_name&gt; catkin roscpp rospy message_generation std_msgs geometry_msgs sensor_msgs tf urdf ```</li>
 <li>Move to the catkin_ws folder and run catkin_make: ``` cd ~/catkin_ws catkin_make ``<code></code></li>
 <li><code>[on Terminal 2] launch</code>roscore`</li>
 <li>[on Terminal 3] launch rviz: ``` rosrun rviz rviz ```</li>
 <li>In order to launch urdf models, possible related publishers and rviz itself, copy the launch files and the human-viz-bridge.rviz in the ros package you have created and use this command (each time for each launch file in a different terminal): ``` roslaunch &lt;ros_package&gt; &lt;displayFiles.launch&gt; ``` </li>
 </ul>
 </div></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>

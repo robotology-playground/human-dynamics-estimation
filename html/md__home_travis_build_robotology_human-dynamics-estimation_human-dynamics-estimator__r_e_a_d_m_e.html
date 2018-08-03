@@ -4,16 +4,24 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Human Dynamics Estimation: YARP human-dynamics-estimator module.</title>
+<title>HumanDynamicsEstimation: YARP human-dynamics-estimator module.</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -22,8 +30,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Human Dynamics Estimation
+   <div id="projectname">HumanDynamicsEstimation
    </div>
+   <div id="projectbrief">Softwarerepositoryforestimatinghumandynamics</div>
   </td>
  </tr>
  </tbody>
@@ -37,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -58,6 +66,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('md__home_travis_build_robotology_human-dynamics-estimation_human-dynamics-estimator__r_e_a_d_m_e.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -72,7 +95,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">YARP human-dynamics-estimator module. </div>  </div>
@@ -98,11 +120,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>where <b>L</b> is a lower triangular matrix with real and positive diagonal entries, and <b>L'</b> denotes the conjugate transpose of <b>L</b>. The Cholesky decomposition is mainly used for the numerical solution of linear equations <b>A x</b> = <b>b</b>. If <b>A</b> is symmetric and positive definite, then we can solve <b>A x</b> = <b>b</b> by first computing the Cholesky decomposition <b>A</b> = <b>L L'</b>, then solving <b>L y</b> = <b>b</b> for <b>y</b> by forward substitution, and finally solving <b>L' x</b> = <b>y</b> for <b>x</b> by back substitution. When <b>A</b> is sparse, a permutation matrix <b>P</b>, such that <b>L L'</b> = <b>P' A P</b>, speeds up the linear system solution. The Cholesky factorisation of <b>P' A P</b> tends to be sparser than that of <b>A</b>.</p>
 <p><b>Eigen SimplicialLLT</b> class performs Cholesky factorisations of sparse matrices that are selfadjoint and positive definite. In order to reduce the fill-in, a symmetric permutation matrix <b>P</b> is applied prior to the factorisation. When solving for several problems having the same structure the Cholesky decomposition can be divided into two steps. First, <em>analyzePattern</em> function performs a symbolic decomposition on the sparsity of a matrix. This function reorders the non zeros elements of the matrix, such that the factorisation step creates less fill-in. This step exploits only the structure of the matrix, hence the results of this step can be used for other linear system where the matrix has the same structure. Second, <em>factorize</em> function performs a numeric decomposition of the matrix, that must have the same sparsity than the matrix on which the symbolic decomposition has been performed. The factors of the matrix are computed in this step. In this way, if the sparsity of the matrix remains the same, <em>analyzePattern</em> function is run only once, while <em>factorize</em> function should be called each time the values of the matrix change. </p>
 </div></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
 </body>
 </html>
